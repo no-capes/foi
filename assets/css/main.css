@@ -608,9 +608,13 @@ header.home h1 {
   background: url("../img/icons/call-answer.svg") no-repeat center top/cover;
 }
 
-.contact .icon_adress {
+.contact .icon_address {
   background: url("../img/icons/placeholder-filled-point.svg") no-repeat center top/cover;
 }
+
+/*.star .icon_gluten_free{*/
+/*  background: url("../img/icons/custom_Gluten_Free.svg") no-repeat center top/cover;*/
+/*}*/
 
 .button_sl {
   position: relative;
@@ -1679,7 +1683,7 @@ aside a:hover {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://via.placeholder.com/1920x1080") no-repeat center/cover;
 }
 
-.products_shop {
+.menu_items {
   padding-top: 80px;
 }
 
@@ -3141,7 +3145,7 @@ form {
     display: -webkit-box;
     display: flex;
   }
-  .products_shop {
+  .menu_items {
     padding-right: 0px;
   }
   aside {
