@@ -612,9 +612,9 @@ header.home h1 {
   background: url("../img/icons/placeholder-filled-point.svg") no-repeat center top/cover;
 }
 
-/*.star .icon_gluten_free{*/
-/*  background: url("../img/icons/custom_Gluten_Free.svg") no-repeat center top/cover;*/
-/*}*/
+.star .icon_gluten_free{
+  background: url("../img/icons/custom_Gluten_Free.svg") no-repeat center top/cover;
+}
 
 .button_sl {
   position: relative;
