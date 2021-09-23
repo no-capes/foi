@@ -546,6 +546,10 @@ body.modal_open {
   background-repeat: no-repeat !important;
 }
 
+#slide-inner-1{
+  background: url("../img/allFoodBackground.jpg") no-repeat center top/cover;
+}
+
 .quote-slider {
   padding: 20px 0px !important;
 }
