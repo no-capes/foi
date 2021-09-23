@@ -1679,8 +1679,8 @@ aside a:hover {
 #shop header {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/shop_fon_l.png") no-repeat center top/cover;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/shop_fon_l.png") no-repeat center top/cover;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://via.placeholder.com/1920x1080") no-repeat center/cover;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://via.placeholder.com/1920x1080") no-repeat center/cover;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/menuBackgroundImage.jpg") no-repeat center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/menuBackgroundImage.jpg") no-repeat center/cover;
 }
 
 .menu_items {
