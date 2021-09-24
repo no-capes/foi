@@ -551,7 +551,7 @@ body.modal_open {
 }
 
 #slide-inner-2 {
-    background: url("../img/slide2background.jpg") no-repeat center top/cover;
+    background: url("../img/dish_rice.jpg") no-repeat center top/cover;
 }
 
 #slide-inner-3 {
@@ -1783,8 +1783,8 @@ aside a:hover {
 #shop header {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/shop_fon_l.png") no-repeat center top/cover;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/shop_fon_l.png") no-repeat center top/cover;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/menuBackgroundImage.jpg") no-repeat center/cover;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/menuBackgroundImage.jpg") no-repeat center/cover;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/dish_allDishes_1920x.jpg") no-repeat center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/dish_allDishes_1920x.jpg") no-repeat center/cover;
 }
 
 .menu_items {
@@ -2079,7 +2079,7 @@ form {
 }
 
 .info_contact {
-    padding-top: 100px;
+    padding-top: 20px;
 }
 
 .contact_info {
@@ -2087,7 +2087,7 @@ form {
 }
 
 .contact_info .logo_about {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 .contact_info .up_i {
@@ -2097,8 +2097,9 @@ form {
 }
 
 .contact_info p {
-    max-width: 470px;
+    max-width: 700px;
     margin: 0px auto;
+    margin-bottom: 20px;
 }
 
 .contact_info h2 {
@@ -2272,10 +2273,10 @@ form {
 }
 
 #about header {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../img/fon_gallery_l.png") no-repeat center top/cover;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/fon_gallery_l.png") no-repeat center top/cover;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("https://via.placeholder.com/1920x1080") no-repeat center/cover;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://via.placeholder.com/1920x1080") no-repeat center/cover;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../img/dish_allDishes_1920x.jpg") no-repeat center top/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/dish_allDishes_1920x.jpg") no-repeat center top/cover;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../img/dish_allDishes_1920x.jpg") no-repeat center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/dish_allDishes_1920x.jpg") no-repeat center/cover;
 }
 
 #about .gallery {
@@ -2378,16 +2379,6 @@ form {
     padding-bottom: 120px;
 }
 
-#about .img_info .img_i {
-    background: url("../img/foi-buffet.jpg") no-repeat center/cover;
-    display: block;
-    width: 100%;
-    height: 400px;
-    position: relative;
-    margin-bottom: 50px;
-    border-radius: 8px;
-}
-
 #about .img_info .img_i::before {
     content: "";
     display: block;
@@ -2448,10 +2439,10 @@ form {
     text-align: center;
     padding-top: 100px;
     padding-bottom: 100px;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../img/fon_about_two_l.png") no-repeat center top/cover;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/fon_about_two_l.png") no-repeat center top/cover;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("https://via.placeholder.com/1920x1080") no-repeat center/cover;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://via.placeholder.com/1920x1080") no-repeat center/cover;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../img/dish_curry.jpg") no-repeat center top/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/dish_curry.jpg") no-repeat center top/cover;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../img/dish_curry.jpg") no-repeat center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/dish_curry.jpg") no-repeat center/cover;
 }
 
 #about .information_ab span {
