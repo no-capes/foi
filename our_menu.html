@@ -17,12 +17,14 @@
     <link href="assets/css/libs.min.css" rel="stylesheet">
 </head>
 <body id="shop">
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <header>
     <div class="search_b"><i class="fas fa-times search_icon"></i>
         <input type="search" placeholder="Search">
     </div>
     <div class="l_m_global headroom">
-        <div class="container l_m"><a class="logo" href="index.html"><img src="assets/img/foi_logo_home_01.png" alt="logo"></a><span
+        <div class="container l_m"><a class="logo" href="index.html"><img src="assets/img/foi_logo_home_01.png"
+                                                                          alt="logo"></a><span
                 class="fas fa-bars" id="menu_icon"></span>
             <nav class="menu">
                 <li><a href="index.html">Home</a></li>
@@ -35,8 +37,7 @@
     <div class="container flex_center">
         <div class="title">
             <h1>Our Menu</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus at suscipit enim expedita natus
-                eligendi architecto rerum asperiores.</p>
+            <h3 style="color: white;">Something for everyone</h3>
         </div>
     </div>
 </header>
@@ -47,27 +48,20 @@
                 <h3>Categories</h3>
                 <a href="#vegStarters">Starters (Vegetarian)</a>
                 <a href="#nonVegStarters">Starters (Non- Vegetarian)</a>
-                <a href="#vegPaneerGF">Paneer Gluten Free</a>
-                <a href="#vegVeganGF">Vegan and Gluten Free</a>
-                <a href="#nonVegChickGF">Chicken Gluten Free</a>
-                <a href="#lambBeefGF">Lamb or Beef Gluten Free</a>
-                <a href="#seafoodGF">Seafood Gluten Free</a>
-                <a href="#chefVeg">Vegetarian</a>
-                <a href="#chefNonVeg">Non-Vegetarian</a>
+                <a href="#vegFlavs">Vegetarian Flavours</a>
+                <a href="#nonVegFlavs">Non-Vegetarian Flavours</a>
+                <a href="#chefVeg">Chef's Special (Vegetarian)</a>
+                <a href="#chefNonVeg">Chef's Special (Non-Vegetarian)</a>
                 <a href="#sigDish">Signature Dish </a>
-                <a href="#inChFusionVeg">Vegetarian</a>
-                <a href="#inChFusionNonVeg">Non-Vegetarian</a>
-                <a href="#soupOfTheDayVeg">Soup of the Day (Veg)</a>
-                <a href="#soupOfTheDayNonVeg">Soup of the Day (Non-Veg)</a>
-                <a href="#chutney">Chutney</a>
+                <a href="#inChFusionVeg">Indo-Chinese Fusion (Vegetarian)</a>
+                <a href="#inChFusionNonVeg">Indo-Chinese Fusion (Non-Vegetarian)</a>
                 <a href="#riceSpecialities">Rice Specialities</a>
                 <a href="#tandooriBread">Tandoori Bread</a>
+                <a href="#takeoutSpecials">Take Out Specials</a>
+                <a href="#comboMeals">Combo Meals</a>
                 <a href="#tidBits">Tid Bits</a>
                 <a href="#desserts">Desserts</a>
-                <a href="#takeoutSpecials">Take Out Specials</a>
                 <a href="#drinks">Drinks</a>
-                <a href="#comboMeals">Combo Meals</a>
-
 
             </div>
         </div>
@@ -114,7 +108,7 @@
                                 </div>
                             </div>
                             <h3>Aloo Tikki (2pc.) </h3>
-                            <p>Mashed potato patties mixed with traditional spices,deep fried.</p>
+                            <p>Mashed potato patties mixed with traditional spices,deep-fried.</p>
                         </a>
                     </div>
                 </div>
@@ -147,8 +141,8 @@
                                 </div>
                             </div>
                             <h3>Chaat Papri</h3>
-                            <p>Crisp chips made with flour, mixed with potatoes, chick peas, tamarind sauce, mint
-                                chutney, yogurt and Indian spices</p></a>
+                            <p>Crisp chips made with flour, mixed with potatoes, chick peas, tamarind sauce,</p>
+                            <p> mint chutney, yogurt and Indian spices</p></a>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -168,7 +162,8 @@
                             </div>
                             <h3>Veggie Pakora</h3>
                             <p> Fresh vegetables, potato, cauliflower, onions and spinach mixed with spices and chickpea
-                                flour deep fried.</p></a>
+                                flour</p>
+                            <p> deep-fried.</p></a>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -324,8 +319,8 @@
                                 </div>
                             </div>
                             <h3>Chicken Tikka</h3>
-                            <p>Chicken breast marinated with yogurt, cream and saffron spices, roasted in clay
-                                oven.</p></a>
+                            <p>Chicken breast marinated with yogurt, cream and saffron spices, roasted in clay oven.</p>
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -344,8 +339,8 @@
                                 </div>
                             </div>
                             <h3>Chicken Tandoori </h3>
-                            <p>Chicken marinated in traditional spices with ginger, garlic and yogurt, roasted in
-                                clay oven.</p></a>
+                            <p>Chicken marinated in traditional spices with ginger, garlic and yogurt, roasted in clay
+                                oven.</p></a>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -463,8 +458,7 @@
             </div>
 
 
-            <h2>Vegetarian Flavours</h2>
-            <h3 id="vegPaneerGF">Paneer Gluten Free</h3>
+            <h2 id="vegFlavs">Vegetarian Flavours</h2>
             <div class="row flex-wrap">
                 <div class="col-md-6">
                     <div class="products_sh">
@@ -624,12 +618,9 @@
                                 </div>
                             </div>
                             <h3>Matar Paneer</h3>
-                            <p>Green peas and paneer cooked with special curry sauce and spices</p></a>
+                            <p>Green peas and paneer cooked with special curry sauce and spices.</p></a>
                     </div>
                 </div>
-            </div>
-            <h3 id="vegVeganGF">Vegan and Gluten Free</h3>
-            <div class="row flex-wrap">
                 <div class="col-md-6">
                     <div class="products_sh">
                         <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
@@ -646,7 +637,7 @@
                                 </div>
                             </div>
                             <h3>Chana Masala</h3>
-                            <p>Chickpeas cooked with authentic spices in curry sauce</p></a>
+                            <p>Chickpeas cooked with authentic spices in curry sauce.</p></a>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -760,7 +751,7 @@
                                 </div>
                             </div>
                             <h3>Bhindi Masala</h3>
-                            <p>Okra, Tossed with sauteed onions and bell peppers with homemade spices</p></a>
+                            <p>Okra, Tossed with sautéed onions and bell peppers with homemade spices</p></a>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -823,8 +814,8 @@
                 </div>
             </div>
 
-            <h2>Non-Vegetarian Flavours</h2>
-            <h3 id="nonVegChickGF">Chicken Gluten Free</h3>
+
+            <h2 id="nonVegFlavs">Non-Vegetarian Flavours</h2>
             <div class="row flex-wrap">
                 <div class="col-md-6">
                     <div class="products_sh">
@@ -988,11 +979,6 @@
                             <p>Boneless chicken cooked with wholesome spices</p></a>
                     </div>
                 </div>
-
-            </div>
-
-            <h3 id="lambBeefGF">Lamb or Beef Gluten Free</h3>
-            <div class="row flex-wrap">
                 <div class="col-md-6">
                     <div class="products_sh">
                         <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
@@ -1156,11 +1142,6 @@
                             <p>Boneless lamb or beef tossed with onions, tomatoes and homemade special sauce</p></a>
                     </div>
                 </div>
-
-            </div>
-
-            <h3 id="seafoodGF">Seafood Gluten Free</h3>
-            <div class="row flex-wrap">
                 <div class="col-md-6">
                     <div class="products_sh">
                         <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
@@ -1194,7 +1175,7 @@
                                 </div>
                             </div>
                             <h3>Shrimp or Fish Zalfrezi</h3>
-                            <p>Shrimp or fish cooked with freen peppers, onions, tomatoes and traditional spices</p></a>
+                            <p>Shrimp or fish cooked with green peppers, onions, tomatoes and traditional spices</p></a>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -1218,1330 +1199,1297 @@
 
             </div>
 
-            <h2>Chef’s Specials</h2>
-            <h3 id="chefVeg">Vegetarian</h3>
-            <div class="row flex-wrap">
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$15.99</span>
-                                <div class="star">
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
-                                </div>
-                            </div>
-                            <h3>Paneer Tikka Masala</h3>
-                            <p>Marinated paneer cooked in clay oven and tossed with onions and peppers in a special
-                                sauce with cashew nuts</p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$13.99</span>
-                                <div class="star">
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
-                                </div>
-                            </div>
-                            <h3>Vegetable Korma</h3>
-                            <p>Green vegetables cooked in a sauce done with cream and cashew nuts.</p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$16.99</span>
-                                <div class="star">
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
-                                </div>
-                            </div>
-                            <h3>Paneer Methi </h3>
-                            <p>Paneer cooked with ginger, garlic, fenugreek leaves in a creamy sauce</p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$13.99</span>
-                                <div class="star">
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
-                                </div>
-                            </div>
-                            <h3>Malai Kofta</h3>
-                            <p>Dumplings made with paneer and potatoes, cooked in mild exotic creamy butter sauce and
-                                nuts</p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$11.99</span>
-                                <div class="star">
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
-                                </div>
-                            </div>
-                            <h3>Daal Makhani </h3>
-                            <p>Creamed lentils with aromatic spices</p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$11.99</span>
-                                <div class="star">
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
-                                </div>
-                            </div>
-                            <h3>Karri Pakora</h3>
-                            <p>Thick tangy gravy made with yogurt and chickpea flour. </p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$13.99</span>
-                                <div class="star">
-                                    <i class="fas fa-leaf"></i>
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.1em; height:1.1em;" alt="a vector graphic"/>
-                                </div>
-                            </div>
-                            <h3>Zucchini Masala</h3>
-                            <p>Fresh zucchini cooked with onions and peppers in traditional Indian style</p></a>
-                    </div>
-                </div>
-
-            </div>
-
-            <h3 id="chefNonVeg">Non-Vegetarian</h3>
-            <div class="row flex-wrap">
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$16.99</span>
-                                <div class="star">
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
-                                </div>
-                            </div>
-                            <h3>Chicken Tikka Masala</h3>
-                            <p>Marinated and roasted boneless chicken, cooked in a clay oven and tossed with onions and
-                                peppes in a special sauce with cashew nuts</p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$15.99</span>
-                                <div class="star">
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
-                                </div>
-                            </div>
-                            <h3>Chicken Masala</h3>
-                            <p>Boneless chicken tossed with onions and tomatoes with homemade special sauce</p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$16.99</span>
-                                <div class="star">
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
-                                </div>
-                            </div>
-                            <h3>Fish Tikka Masala</h3>
-                            <p>Marinated fish cooked in clay oven and tossed with onions and peppers in a special sauce
-                                with cahsew nuts</p></a>
-                    </div>
-                </div>
-
-            </div>
-
-            <h3 id="sigDish">Signature Dish</h3>
-            <div class="row flex-wrap">
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$14.99</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Josan’s Special Chana</h3>
-                            <p>What would you eat if you could eat only eat one dish for the rest of your life? For
-                                Sukhi Josan, the answer was inevitable: Chana Masala. It has taken him years to perfect
-                                this recipe to create a masterpiece. Try our Special Chana with a secret blend of spices
-                                and maybe you will find your special dish as well</p></a>
-                    </div>
-                </div>
-            </div>
-
-            <h2>Indo-Chinese Fusion</h2>
-            <h3 id="inChFusionVeg">Vegetarian</h3>
-            <div class="row flex-wrap">
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$12.99</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Vegetable Noodles</h3>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$13.99</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Vegetable Manchurian (Dry or Gravy)</h3>
-                            <p>An indochinese dish made of steamed mixed vegetables formed into dumplings, deep fried
-                                and cooked in a dry or tangy sauce</p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$12.99</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Vegetable Fried Rice</h3>
-                            <p>Basmati rice cooked with fresh vegetable using Indo-Chinese Fusions recipe.</p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$15.99</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Paneer Chilly (Dry or Grravy)</h3>
-                            <p>Paneer tossed and cooked with bell peppers and inions in soya sauce</p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$13.99</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Gobhi Manchurain (Dry or Gravy) </h3>
-                            <p>Crispy cauliflower served in a dry or gravy sauce.</p></a>
-                    </div>
-                </div>
-
-            </div>
-
-            <h3 id="inChFusionNonVeg">Non-Vegetarian</h3>
-            <div class="row flex-wrap">
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$14.99</span>
-                                <div class="star">
-
-                                </div>
-                            </div>
-                            <h3>Chicken Noodles</h3>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$15.99</span>
-                                <div class="star">
-
-                                </div>
-                            </div>
-                            <h3>Chicken Manchurian (Dry or Gravy)</h3>
-                            <p>Crispy chicken served in a dry or gravy sauce</p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$15.99</span>
-                                <div class="star">
-
-                                </div>
-                            </div>
-                            <h3>Fish Manchurain (Dry or Gravy)</h3>
-                            <p>Crispy fish served in a dry or gravy sauce.
-                            </p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$14.99</span>
-                                <div class="star">
-
-                                </div>
-                            </div>
-                            <h3>Chicken Fried Rice</h3>
-                            <p>Basmati rice cooked with chicken using Indo-Chinese fusion recipe.
-                            </p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$15.99</span>
-                                <div class="star">
-
-                                </div>
-                            </div>
-                            <h3>Chicken Chilly (Dry or Gravy)</h3>
-                            <p>Chicken breast tossed and cooked with bell peppers and onions in soya sauce.</p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$15.99</span>
-                                <div class="star">
-
-                                </div>
-                            </div>
-                            <h3>Fish Chilly (Dry or Gravy) </h3>
-                            <p>Fish tossed and cooked with bell peppers and onions in soya sauce.
-                            </p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$16.99</span>
-                                <div class="star">
-
-                                </div>
-                            </div>
-                            <h3>Chicken Black Pepper</h3>
-                            <p>Sauteed chicken with black pepper and bell pepper.
-                            </p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$16.99</span>
-                                <div class="star">
-
-                                </div>
-                            </div>
-                            <h3>Fish Black Pepper</h3>
-                            <p>Sauteed fish with black pepper and bell pepper.
-                            </p></a>
-                    </div>
-                </div>
-
-            </div>
-
-            <h3 id="soupOfTheDayVeg">Soup of the Day (Veg)</h3>
-            <div class="row flex-wrap">
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$6.99</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Hot & Sour Soup</h3>
-                            <p>ITEM_DESCRIPTION</p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$6.99</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Manchow Soup</h3>
-                            <p>ITEM_DESCRIPTION</p></a>
-                    </div>
-                </div>
-            </div>
-
-            <h3 id="soupOfTheDayNonVeg">Soup of the Day (Non-Veg)</h3>
-            <div class="row flex-wrap">
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$6.99</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Chicken Hot & Sour Soup</h3>
-                            <p>ITEM_DESCRIPTION </p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$6.99</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Chicken Manchow Soup</h3>
-                            <p>ITEM_DESCRIPTION </p></a>
-                    </div>
-                </div>
-            </div>
-
-            <h3 id="chutney">Chutney</h3>
-            <div class="row flex-wrap">
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$0.99</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Mint Chutney</h3>
-                            <p>ITEM_DESCRIPTION </p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$0.99</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Sweet Chutney</h3>
-                            <p>ITEM_DESCRIPTION </p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$0.99</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Mango Chutney</h3>
-                            <p>ITEM_DESCRIPTION </p></a>
-                    </div>
-                </div>
-            </div>
-
-            <h3 id="riceSpecialities">Rice Specialities</h3>
-            <div class="row flex-wrap">
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$2.99</span>
-                                <div class="star">
-                                    <i class="fas fa-leaf"></i>
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.1em; height:1.1em;" alt="a vector graphic"/>
-                                </div>
-                            </div>
-                            <h3>Basmati Rice</h3>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$4.99</span>
-                                <div class="star">
-                                    <i class="fas fa-leaf"></i>
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.1em; height:1.1em;" alt="a vector graphic"/>
-                                </div>
-                            </div>
-                            <h3>Zeera Rice</h3>
-                            <p>Rice cooked with cumin seeds</p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$5.99</span>
-                                <div class="star">
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
-                                </div>
-                            </div>
-                            <h3>Saffron Rice</h3>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$7.99</span>
-                                <div class="star">
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
-                                </div>
-                            </div>
-                            <h3>Saffron Rice with Nuts </h3>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$7.99</span>
-                                <div class="star">
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
-                                </div>
-                            </div>
-                            <h3>Coconut Rice</h3>
-                            <p>Rice cooked with coconut, a touch of cream, saffron and sweetness</p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$13.99</span>
-                                <div class="star">
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
-                                </div>
-                            </div>
-                            <h3>Vegetable Biryani</h3>
-                            <p>Rice cooked with fresh vegetables in special spices, saffron and yogurt.
-                            </p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$15.99</span>
-                                <div class="star">
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
-                                </div>
-                            </div>
-                            <h3>Chicken Biryani</h3>
-                            <p>Boneless chicken cooked with garlic, ginger, exotic Indian herbs, rice and saffron</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$17.99</span>
-                                <div class="star">
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
-                                </div>
-                            </div>
-                            <h3>Lamb or Beef Biryani</h3>
-                            <p>Lamb or Beef cooked with exotic Indian herbs, rice and saffron.</p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$17.99</span>
-                                <div class="star">
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
-                                </div>
-                            </div>
-                            <h3>Shrimp or Fish Biryani </h3>
-                            <p>Shrimp or fish cooked with garlic, ginger, exotic Indian herbs, rice and saffron.</p></a>
-                    </div>
-                </div>
-            </div>
-
-            <h3 id="tandooriBread">Tandoori Bread</h3>
-            <div class="row flex-wrap">
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$1.99</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Naan </h3>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$1.99</span>
-                                <div class="star">
-                                    <i class="fas fa-leaf"></i>
-                                </div>
-                            </div>
-                            <h3>Roti </h3>
-                            <p>Whole wheat bread baked in tandoor</p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$2.99</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Garlic Naan</h3>
-                            <p>Leavened bread of fine flour with garlic, butter, baked in tandoor</p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$2.99</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Butter Naan</h3>
-                            <p>Leavened bread of fine flour with butter, baked in tandoor.
-                            </p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$3.99</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Aaloo Naan or Prantha</h3>
-                            <p>Leavened or whole wheat bread with potatoes, onions and herbs, baked in tandoor.</p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$3.99</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Onion Garlic Naan or Parantha </h3>
-                            <p>Leavened bread with onion and garlic topping, baked in tandoor.
-                            </p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$5.99</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Paneer Naan</h3>
-                            <p>Leavened bread stuffed with paneer and spices, baked in tandoor.
-                            </p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$5.99</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Coconut Naan</h3>
-                            <p>Leavened bread stuffed with minced chicken tikka and spices, baked in tandoor.</p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$6.99</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Chicken Tikka Naan</h3>
-                            <p>Leavened bread stuffed with minced chicken tikka and spices, baked in tandoor.
-                            </p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$3.99</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Besan Roti </h3>
-                            <p>A gluten free flat bread made from chickpea flour. </p></a>
-                    </div>
-                </div>
-
-            </div>
-
-
-            <h3 id="tidBits">Tid Bits</h3>
-            <div class="row flex-wrap">
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$0.99</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Papdum </h3>
-                            <p>Spicy lentil wafer roasted or deep fried.</p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$2.99</span>
-                                <div class="star">
-
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
-                                </div>
-                            </div>
-                            <h3>Raita </h3>
-                            <p>Yogurt mixed with cucumbers, herbs and spices.
-                            </p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$5.99</span>
-                                <div class="star">
-
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
-                                </div>
-                            </div>
-                            <h3>Dahi Bhalla</h3>
-                            <p>Specially made lentil balls mixed yogurt and chutney.
-                            </p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$2.99</span>
-                                <div class="star">
-                                    <i class="fas fa-leaf"></i>
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.1em; height:1.1em;" alt="a vector graphic"/>
-                                </div>
-                            </div>
-                            <h3>Salad </h3>
-                            <p>Ask server for details.</p></a>
-                    </div>
-                </div>
-
-            </div>
-
-            <h3 id="desserts">Desserts</h3>
-            <div class="row flex-wrap">
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$2.99</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Ras Malai</h3>
-                            <p>Made from fresh paneer served in cold sweetened milk</p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$3.99</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Gulab Jamun</h3>
-                            <p>ITEM_DESCRIPTION</p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$3.99</span>
-                                <div class="star">
-
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
-                                </div>
-                            </div>
-                            <h3>Kheer (Rice Pudding)</h3>
-                            <p>Rice, milk ,sugar cooked together. </p></a>
-                    </div>
-                </div>
-            </div>
-
-            <h3 id="takeoutSpecials">Take Out Specials</h3>
-            <div class="row flex-wrap">
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$22.00</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Take-Out Special A </h3>
-                            <p>Fish or Chicken Pakora and Tandoor Chicken.
-                            </p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$29.99</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Take-Out Special B</h3>
-                            <p>Paneer Tikka Masala and Daal Makhani with four naan. </p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$34.99</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Take-Out Special C</h3>
-                            <p>Paneer Amritsari and Vegetable Manchurian with four garlic naan.</p></a>
-                    </div>
-                </div>
-
-            </div>
-
-            <h3 id="drinks">Drinks</h3>
-            <div class="row flex-wrap">
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$1.50</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Canned Pop</h3>
-                            <p>Available: Code, Diet Code, Sprite, Ice-tea and Ginger Ale</p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$3.99</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Mango Lassi</h3>
-                            <p>Indian mango lassi or Mango smoothie is made by blending yogurt, mangoes, sugar and some
-                                milk and is usually flavored with cardamom powder.</p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$2.99</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Chai</h3>
-                            <p>ITEM_DESCRIPTION</p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$1.99</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Coffee</h3>
-                            <p>ITEM_DESCRIPTION</p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$1.99</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Water Bottle</h3>
-                            <p>ITEM_DESCRIPTION</p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$3.99</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Salty Lassi</h3>
-                            <p>ITEM_DESCRIPTION</p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$3.99</span>
-                                <div class="star">
-                                </div>
-                            </div>
-                            <h3>Sweet Lassi</h3>
-                            <p>ITEM_DESCRIPTION</p></a>
-                    </div>
-                </div>
-
-            </div>
-
-            <h3 id="comboMeals">Combo Meals</h3>
-            <div class="row flex-wrap">
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$17.99</span>
-                                <div class="star">
-                                    <i class="fas fa-leaf"></i>
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.1em; height:1.1em;" alt="a vector graphic"/>
-                                </div>
-                            </div>
-                            <h3>Combo Meal for One</h3>
-                            <p>Butter Chicken with samosa, rice and naan.</p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$34.99</span>
-                                <div class="star">
-                                    <i class="fas fa-leaf"></i>
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.1em; height:1.1em;" alt="a vector graphic"/>
-                                </div>
-                            </div>
-                            <h3>Combo Meal for Two</h3>
-                            <p>* Starters: Veggie Samosa or Veggie Pakora
-                                * Main Course: Butter Chicken or Lamb or Beef Curry, Chana Masala or Daal Makhani, two
-                                Naans and Saffron or Zeera Rice.
-                                *Add two pieces of Tandoori Chicken -$4.99*
-                            </p></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="products_sh">
-                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
-                                                                  class="button_line"><i
-                                class="fas fa-shopping-basket"></i>Order Online</a><img
-                                src="https://via.placeholder.com/1920x1080"
-                                alt=""></div>
-                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
-                            <div class="row align-items-center justify-content-between"><span>$66.99</span>
-                                <div class="star">
-                                    <i class="fas fa-leaf"></i>
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.1em; height:1.1em;" alt="a vector graphic"/>
-                                </div>
-                            </div>
-                            <h3>Combo Meal for Four </h3>
-                            <p>Starters: Veggie Samosa or Veggie Pakora
-                                Main Course: Butter Chicken and Lamb or Beef Curry, four pieces of Tandooru Chicken,
-                                Chana Masala or Mix Vegetables. Served with two Naans and two Saffron or Zeera Rice.
-                            </p></a>
-                    </div>
-                </div>
-
-            </div>
-
-            <!--            <div class="row flex-wrap">-->
-            <!--                <div class="col-md-6">-->
-            <!--                    <div class="products_sh">-->
-            <!--                        <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"-->
-            <!--                                                                  class="button_line"><i-->
-            <!--                                class="fas fa-shopping-basket"></i>Order Online</a><img-->
-            <!--                                src="https://via.placeholder.com/1920x1080"-->
-            <!--                                alt=""></div>-->
-            <!--                        <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">-->
-            <!--                            <div class="row align-items-center justify-content-between"><span>$ ITEM_COST</span>-->
-            <!--                                <div class="star">-->
-            <!--                                    <i class="fas fa-leaf"></i>-->
-            <!--                                    <img src="assets/img/icons/custom_Gluten_Free.svg"-->
-            <!--                                         style="width: 1.1em; height:1.1em;" alt="a vector graphic"/>-->
-            <!--                                </div>-->
-            <!--                            </div>-->
-            <!--                            <h3>ITEM_NAME</h3>-->
-            <!--                            <p>ITEM_DESCRIPTION</p></a>-->
-            <!--                    </div>-->
-            <!--                </div>-->
-            <!--            </div>-->
-            <!--        <div class="nav_pages"><span>1</span>-->
-            <!--          <div class="num_p">2</div>-->
-            <!--          <div class="num_p">3</div>-->
-            <!--        </div>-->
 
         </div>
+
+        <h2 id="chefVeg">Chef's Special (Vegetarian)</h2>
+        <div class="row flex-wrap">
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$15.99</span>
+                            <div class="star">
+                                <img src="assets/img/icons/custom_Gluten_Free.svg"
+                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                            </div>
+                        </div>
+                        <h3>Paneer Tikka Masala</h3>
+                        <p>Marinated paneer cooked in clay oven and tossed with onions and peppers in a special
+                            sauce with cashew </p>
+                        <p>nuts</p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$13.99</span>
+                            <div class="star">
+                                <img src="assets/img/icons/custom_Gluten_Free.svg"
+                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                            </div>
+                        </div>
+                        <h3>Vegetable Korma</h3>
+                        <p>Green vegetables cooked in a sauce done with cream and cashew nuts.</p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$16.99</span>
+                            <div class="star">
+                                <img src="assets/img/icons/custom_Gluten_Free.svg"
+                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                            </div>
+                        </div>
+                        <h3>Paneer Methi </h3>
+                        <p>Paneer cooked with ginger, garlic, fenugreek leaves in a creamy sauce</p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$13.99</span>
+                            <div class="star">
+                                <img src="assets/img/icons/custom_Gluten_Free.svg"
+                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                            </div>
+                        </div>
+                        <h3>Malai Kofta</h3>
+                        <p>Dumplings made with paneer and potatoes, cooked in mild exotic creamy butter sauce and
+                            nuts</p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$11.99</span>
+                            <div class="star">
+                                <img src="assets/img/icons/custom_Gluten_Free.svg"
+                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                            </div>
+                        </div>
+                        <h3>Daal Makhani </h3>
+                        <p>Creamed lentils with aromatic spices</p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$11.99</span>
+                            <div class="star">
+                                <img src="assets/img/icons/custom_Gluten_Free.svg"
+                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                            </div>
+                        </div>
+                        <h3>Karri Pakora</h3>
+                        <p>Thick tangy gravy made with yogurt and chickpea flour. </p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$13.99</span>
+                            <div class="star">
+                                <i class="fas fa-leaf"></i>
+                                <img src="assets/img/icons/custom_Gluten_Free.svg"
+                                     style="width: 1.1em; height:1.1em;" alt="a vector graphic"/>
+                            </div>
+                        </div>
+                        <h3>Zucchini Masala</h3>
+                        <p>Fresh zucchini cooked with onions and peppers in traditional Indian style</p></a>
+                </div>
+            </div>
+
+        </div>
+
+        <h2 id="chefNonVeg">Chef's Special (Non-Vegetarian)</h2>
+        <div class="row flex-wrap">
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$16.99</span>
+                            <div class="star">
+                                <img src="assets/img/icons/custom_Gluten_Free.svg"
+                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                            </div>
+                        </div>
+                        <h3>Chicken Tikka Masala</h3>
+                        <p>Marinated and roasted boneless chicken, cooked in a clay oven and tossed with onions and
+                            peppes in a </p>
+                        <p>special sauce with cashew nuts</p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$15.99</span>
+                            <div class="star">
+                                <img src="assets/img/icons/custom_Gluten_Free.svg"
+                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                            </div>
+                        </div>
+                        <h3>Chicken Masala</h3>
+                        <p>Boneless chicken tossed with onions and tomatoes with homemade special sauce</p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$16.99</span>
+                            <div class="star">
+                                <img src="assets/img/icons/custom_Gluten_Free.svg"
+                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                            </div>
+                        </div>
+                        <h3>Fish Tikka Masala</h3>
+                        <p>Marinated fish cooked in clay oven and tossed with onions and peppers in a special sauce
+                            with cashew </p>
+                        <p>nuts</p></a>
+                </div>
+            </div>
+
+        </div>
+
+        <h2 id="sigDish">Signature Dish</h2>
+        <div class="row flex-wrap">
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$14.99</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Josan’s Special Chana</h3>
+                        <p>What would you eat if you could eat only eat one dish for the rest of your life? For Sukhi
+                            Josan, the answer </p>
+                        <p> was inevitable: Chana Masala.
+                            It has taken him years to perfect this recipe to create a masterpiece. Try our </p>
+                        <p>Special Chana with a secret blend of spices
+                            and maybe you will find your special dish as well</p></a>
+                </div>
+            </div>
+        </div>
+
+        <h2 id="inChFusionVeg">Indo-Chinese Fusion (Vegetarian)</h2>
+        <div class="row flex-wrap">
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$12.99</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Vegetable Noodles</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$13.99</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Vegetable Manchurian (Dry or Gravy)</h3>
+                        <p>An indochinese dish made of steamed mixed vegetables formed into dumplings, deep-fried
+                            and </p>
+                        <p>cooked in a dry or tangy sauce</p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$12.99</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Vegetable Fried Rice</h3>
+                        <p>Basmati rice cooked with fresh vegetable using Indo-Chinese Fusions recipe.</p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$15.99</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Paneer Chilly (Dry or Gravy)</h3>
+                        <p>Paneer tossed and cooked with bell peppers and onions in soy sauce</p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$13.99</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Gobhi Manchurain (Dry or Gravy) </h3>
+                        <p>Crispy cauliflower served in a dry or gravy sauce.</p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$6.99</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Hot & Sour Soup</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$6.99</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Manchow Soup</h3>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <h2 id="inChFusionNonVeg">Indo-Chinese Fusion (Non-Vegetarian)</h2>
+        <div class="row flex-wrap">
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$14.99</span>
+                            <div class="star">
+
+                            </div>
+                        </div>
+                        <h3>Chicken Noodles</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$15.99</span>
+                            <div class="star">
+
+                            </div>
+                        </div>
+                        <h3>Chicken Manchurian (Dry or Gravy)</h3>
+                        <p>Crispy chicken served in a dry or gravy sauce</p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$15.99</span>
+                            <div class="star">
+
+                            </div>
+                        </div>
+                        <h3>Fish Manchurain (Dry or Gravy)</h3>
+                        <p>Crispy fish served in a dry or gravy sauce.
+                        </p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$14.99</span>
+                            <div class="star">
+
+                            </div>
+                        </div>
+                        <h3>Chicken Fried Rice</h3>
+                        <p>Basmati rice cooked with chicken using Indo-Chinese fusion recipe.
+                        </p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$15.99</span>
+                            <div class="star">
+
+                            </div>
+                        </div>
+                        <h3>Chicken Chilly (Dry or Gravy)</h3>
+                        <p>Chicken breast tossed and cooked with bell peppers and onions in soya sauce.</p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$15.99</span>
+                            <div class="star">
+
+                            </div>
+                        </div>
+                        <h3>Fish Chilly (Dry or Gravy) </h3>
+                        <p>Fish tossed and cooked with bell peppers and onions in soya sauce.
+                        </p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$16.99</span>
+                            <div class="star">
+
+                            </div>
+                        </div>
+                        <h3>Chicken Black Pepper</h3>
+                        <p>Sauteed chicken with black pepper and bell pepper.
+                        </p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$16.99</span>
+                            <div class="star">
+
+                            </div>
+                        </div>
+                        <h3>Fish Black Pepper</h3>
+                        <p>Sauteed fish with black pepper and bell pepper.
+                        </p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$6.99</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Chicken Hot & Sour Soup</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$6.99</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Chicken Manchow Soup</h3>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <h3 id="riceSpecialities">Rice Specialities</h3>
+        <div class="row flex-wrap">
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$2.99</span>
+                            <div class="star">
+                                <i class="fas fa-leaf"></i>
+                                <img src="assets/img/icons/custom_Gluten_Free.svg"
+                                     style="width: 1.1em; height:1.1em;" alt="a vector graphic"/>
+                            </div>
+                        </div>
+                        <h3>Basmati Rice</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$4.99</span>
+                            <div class="star">
+                                <i class="fas fa-leaf"></i>
+                                <img src="assets/img/icons/custom_Gluten_Free.svg"
+                                     style="width: 1.1em; height:1.1em;" alt="a vector graphic"/>
+                            </div>
+                        </div>
+                        <h3>Zeera Rice</h3>
+                        <p>Rice cooked with cumin seeds</p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$5.99</span>
+                            <div class="star">
+                                <img src="assets/img/icons/custom_Gluten_Free.svg"
+                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                            </div>
+                        </div>
+                        <h3>Saffron Rice</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$7.99</span>
+                            <div class="star">
+                                <img src="assets/img/icons/custom_Gluten_Free.svg"
+                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                            </div>
+                        </div>
+                        <h3>Saffron Rice with Nuts </h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$7.99</span>
+                            <div class="star">
+                                <img src="assets/img/icons/custom_Gluten_Free.svg"
+                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                            </div>
+                        </div>
+                        <h3>Coconut Rice</h3>
+                        <p>Rice cooked with coconut, a touch of cream, saffron and sweetness</p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$13.99</span>
+                            <div class="star">
+                                <img src="assets/img/icons/custom_Gluten_Free.svg"
+                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                            </div>
+                        </div>
+                        <h3>Vegetable Biryani</h3>
+                        <p>Rice cooked with fresh vegetables in special spices, saffron and yogurt.
+                        </p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$15.99</span>
+                            <div class="star">
+                                <img src="assets/img/icons/custom_Gluten_Free.svg"
+                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                            </div>
+                        </div>
+                        <h3>Chicken Biryani</h3>
+                        <p>Boneless chicken cooked with garlic, ginger, exotic Indian herbs, rice and saffron</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$17.99</span>
+                            <div class="star">
+                                <img src="assets/img/icons/custom_Gluten_Free.svg"
+                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                            </div>
+                        </div>
+                        <h3>Lamb or Beef Biryani</h3>
+                        <p>Lamb or Beef cooked with exotic Indian herbs, rice and saffron.</p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$17.99</span>
+                            <div class="star">
+                                <img src="assets/img/icons/custom_Gluten_Free.svg"
+                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                            </div>
+                        </div>
+                        <h3>Shrimp or Fish Biryani </h3>
+                        <p>Shrimp or fish cooked with garlic, ginger, exotic Indian herbs, rice and saffron.</p></a>
+                </div>
+            </div>
+        </div>
+
+        <h3 id="tandooriBread">Tandoori Bread</h3>
+        <div class="row flex-wrap">
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$1.99</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Naan </h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$1.99</span>
+                            <div class="star">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                        </div>
+                        <h3>Roti </h3>
+                        <p>Whole wheat bread baked in tandoor</p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$2.99</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Garlic Naan</h3>
+                        <p>Leavened bread of fine flour with garlic, butter, baked in tandoor</p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$2.99</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Butter Naan</h3>
+                        <p>Leavened bread of fine flour with butter, baked in tandoor.
+                        </p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$3.99</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Aaloo Naan or Prantha</h3>
+                        <p>Leavened or whole wheat bread with potatoes, onions and herbs, baked in tandoor.</p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$3.99</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Onion Garlic Naan or Parantha </h3>
+                        <p>Leavened bread with onion and garlic topping, baked in tandoor.
+                        </p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$5.99</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Paneer Naan</h3>
+                        <p>Leavened bread stuffed with paneer and spices, baked in tandoor.
+                        </p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$5.99</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Coconut Naan</h3>
+                        <p>Leavened bread stuffed with minced chicken tikka and spices, baked in tandoor.</p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$6.99</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Chicken Tikka Naan</h3>
+                        <p>Leavened bread stuffed with minced chicken tikka and spices, baked in tandoor.
+                        </p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$3.99</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Besan Roti </h3>
+                        <p>A gluten free flat bread made from chickpea flour. </p></a>
+                </div>
+            </div>
+
+        </div>
+
+        <h3 id="takeoutSpecials">Take Out Specials</h3>
+        <div class="row flex-wrap">
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$22.00</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Take-Out Special A </h3>
+                        <p>Fish or Chicken Pakora and Tandoor Chicken.
+                        </p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$29.99</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Take-Out Special B</h3>
+                        <p>Paneer Tikka Masala and Daal Makhani with four naan. </p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$34.99</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Take-Out Special C</h3>
+                        <p>Paneer Amritsari and Vegetable Manchurian with four garlic naan.</p></a>
+                </div>
+            </div>
+
+        </div>
+
+        <h3 id="comboMeals">Combo Meals</h3>
+        <div class="row flex-wrap">
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$17.99</span>
+                            <div class="star">
+                                <i class="fas fa-leaf"></i>
+                                <img src="assets/img/icons/custom_Gluten_Free.svg"
+                                     style="width: 1.1em; height:1.1em;" alt="a vector graphic"/>
+                            </div>
+                        </div>
+                        <h3>Combo Meal for One</h3>
+                        <p>Butter Chicken with samosa, rice and naan.</p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$34.99</span>
+                            <div class="star">
+                                <i class="fas fa-leaf"></i>
+                                <img src="assets/img/icons/custom_Gluten_Free.svg"
+                                     style="width: 1.1em; height:1.1em;" alt="a vector graphic"/>
+                            </div>
+                        </div>
+                        <h3>Combo Meal for Two</h3>
+                        <p>Starters: Veggie Samosa/Veggie Pakora <br>
+                            Main Course: Butter Chicken or Lamb or Beef Curry,</p>
+                        <p> Chana Masala or Daal Makhani, two Naans and Saffron or Zeera Rice. <br></p>
+                        <p> Add two pieces of Tandoori Chicken -$4.99</p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$66.99</span>
+                            <div class="star">
+                                <i class="fas fa-leaf"></i>
+                                <img src="assets/img/icons/custom_Gluten_Free.svg"
+                                     style="width: 1.1em; height:1.1em;" alt="a vector graphic"/>
+                            </div>
+                        </div>
+                        <h3>Combo Meal for Four </h3>
+                        <p>Starters: Veggie Samosa/Veggie Pakora
+                            <br>
+                            Main Course: Butter Chicken and Lamb or Beef Curry,
+                        </p>
+                        <p>four pieces of Tandoori Chicken, Chana Masala or Mix Vegetables.
+                            <br>
+                        </p>
+                        <p>Served with two Naans and two Saffron or Zeera Rice.
+                        </p></a>
+                </div>
+            </div>
+
+        </div>
+
+        <h3 id="tidBits">Tid Bits</h3>
+        <div class="row flex-wrap">
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$0.99</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Papdum </h3>
+                        <p>Spicy lentil wafer roasted or deep fried.</p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$2.99</span>
+                            <div class="star">
+
+                                <img src="assets/img/icons/custom_Gluten_Free.svg"
+                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                            </div>
+                        </div>
+                        <h3>Raita </h3>
+                        <p>Yogurt mixed with cucumbers, herbs and spices.
+                        </p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$5.99</span>
+                            <div class="star">
+
+                                <img src="assets/img/icons/custom_Gluten_Free.svg"
+                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                            </div>
+                        </div>
+                        <h3>Dahi Bhalla</h3>
+                        <p>Specially made lentil balls mixed yogurt and chutney.
+                        </p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$2.99</span>
+                            <div class="star">
+                                <i class="fas fa-leaf"></i>
+                                <img src="assets/img/icons/custom_Gluten_Free.svg"
+                                     style="width: 1.1em; height:1.1em;" alt="a vector graphic"/>
+                            </div>
+                        </div>
+                        <h3>Salad </h3>
+                        <p>Ask server for details.</p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$0.99</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Mint Chutney</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$0.99</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Sweet Chutney</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$0.99</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Mango Chutney</h3>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <h3 id="desserts">Desserts</h3>
+        <div class="row flex-wrap">
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$2.99</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Ras Malai</h3>
+                        <p>Made from fresh paneer served in cold sweetened milk</p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$3.99</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Gulab Jamun</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$3.99</span>
+                            <div class="star">
+
+                                <img src="assets/img/icons/custom_Gluten_Free.svg"
+                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                            </div>
+                        </div>
+                        <h3>Kheer (Rice Pudding)</h3>
+                        <p>Rice, milk ,sugar cooked together. </p></a>
+                </div>
+            </div>
+        </div>
+
+        <h3 id="drinks">Drinks</h3>
+        <div class="row flex-wrap">
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$1.50</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Canned Pop</h3>
+                        <p>Available: Code, Diet Code, Sprite, Ice-tea and Ginger Ale</p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$2.99</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Chai</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$1.99</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Coffee</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$1.99</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Water Bottle</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$3.99</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Mango Lassi</h3>
+                        <p>Indian mango lassi or Mango smoothie is made by blending yogurt, mangoes, sugar and some
+                            milk </p>
+                        <p>and is usually flavored with cardamom powder.</p></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$3.99</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Salty Lassi</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="products_sh">
+                    <div class="image_product_add_to_cart"><a href="https://orders.iorders.online/flavoursofindia"
+                                                              class="button_line"><i
+                            class="fas fa-shopping-basket"></i>Order Online</a><img
+                            src="https://via.placeholder.com/1920x1080"
+                            alt=""></div>
+                    <a class="cont_product" href="https://orders.iorders.online/flavoursofindia">
+                        <div class="row align-items-center justify-content-between"><span>$3.99</span>
+                            <div class="star">
+                            </div>
+                        </div>
+                        <h3>Sweet Lassi</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
     </section>
-
-    <!--    style="position:fixed; float:right;"-->
-
 </div>
 <footer>
     <div class="container">
@@ -2585,17 +2533,23 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
 <script src="assets/js/libs.min.js"></script>
 <script src="assets/js/scripts.min.js"></script>
+<script src="assets/js/custom.js"></script>
 
 <!-- Ybug code start (https://ybug.io) -->
 <!-- Ybug code start (https://ybug.io) -->
 <script type='text/javascript'>
-    (function() {
-        window.ybug_settings = {"id":"cpz575zzdkn9ny2sc1xj"};
-        var ybug = document.createElement('script'); ybug.type = 'text/javascript'; ybug.async = true;
-        ybug.src = 'https://widget.ybug.io/button/'+window.ybug_settings.id+'.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ybug, s);
+    (function () {
+        window.ybug_settings = {"id": "cpz575zzdkn9ny2sc1xj"};
+        var ybug = document.createElement('script');
+        ybug.type = 'text/javascript';
+        ybug.async = true;
+        ybug.src = 'https://widget.ybug.io/button/' + window.ybug_settings.id + '.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ybug, s);
     })();
 </script>
 <!-- Ybug code end -->
 <!-- Ybug code end -->
+
+
 </body>

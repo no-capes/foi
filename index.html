@@ -17,6 +17,7 @@
     <link href="assets/css/libs.min.css" rel="stylesheet">
 </head>
 <body id="index">
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <header class="home">
     <div class="bg_slider">
         <div class="swiper-container image-slider">
@@ -183,9 +184,19 @@
     <div class="container">
         <div class="menu_block_two">
             <div class="menu_info_block col-lg-12"><span class="up_i">from our hearts</span>
-                <h2>Menu Flavours Of India</h2>
+                <h2>Most popular items</h2>
             </div>
             <div class="row">
+                <div class="col-lg-6">
+                    <div class="img_text_menu" data-aos="fade-left" data-aos-duration="800" data-aos-delay="200"><img
+                            src="https://via.placeholder.com/85x85" alt="menu_img">
+                        <div class="info_title">
+                            <h3>Butter Chicken</h3>
+                            <p>Boneless chicken cooked in our special creamy butter sauce</p>
+                        </div>
+                        <span>15.99$</span>
+                    </div>
+                </div>
                 <div class="col-lg-6">
                     <div class="img_text_menu" data-aos="fade-right" data-aos-duration="800" data-aos-delay="100"><img
                             src="https://via.placeholder.com/85x85" alt="menu_img">
@@ -194,16 +205,6 @@
                             <p>Butter Chicken with samosa, rice and naan.</p>
                         </div>
                         <span>$17.99</span>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="img_text_menu" data-aos="fade-left" data-aos-duration="800" data-aos-delay="200"><img
-                            src="https://via.placeholder.com/85x85" alt="menu_img">
-                        <div class="info_title">
-                            <h3>Garlic Naan</h3>
-                            <p>Leavened bread of fine flour with garlic, butter, baked in tandoor</p>
-                        </div>
-                        <span>2.99$</span>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -234,8 +235,6 @@
 <section class="visit_us">
     <div class="visit col-lg-7"><span class="up_i">Visit us</span>
         <h2>Good <span class="text_color">food </span>and drinks</h2>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor sociis
-            natoque.</p>
     </div>
 </section>
 <section class="team">
@@ -269,7 +268,7 @@
                 <p>Regina SK S4N 0N6</p>
             </div>
             <div class="footer_contact col-lg-4">
-                <h3>Order Online</h3>
+                <h3>Place an order</h3>
                 <p>(306)-757-5353</p>
             </div>
             <div class="footer_contact col-lg-4">
@@ -302,6 +301,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
 <script src="assets/js/libs.min.js"></script>
 <script src="assets/js/scripts.min.js"></script>
+<script src="assets/js/custom.js"></script>
 <script>
     $(document).ready(function () {
         quoteSwiper.controller.control = imageSwiper;
