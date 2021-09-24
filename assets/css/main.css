@@ -1,24 +1,13 @@
 /* ------------------------------------------------------------------
-	Theme by astroon
+	Original theme by astroon
 	Versiom: 1.0.0
 	Year: 2019
 	Contact: astroonthemes@gmail.com
 	Thank you for your purchase!
 	---------------------------------------------------------------- */
 /* -----------------------------------------------------------------------
-	// navigation - home 1
-	Buttons
-	Header
-	Header_Search
-	Header_Slider
-	Services
-	Img_info
-	Awards
-	Menu
-	Visit_info
-	Hours
-	logos
-	Footer
+    Modified site by Prasuna Kunasani
+    Last Modified date: Sept 24th, 2021 at 2:11 PM
 ----------------------------------------------------------------------- */
 body {
     margin: 0;
@@ -308,25 +297,6 @@ nav {
     margin-left: 0px;
 }
 
-.menu li .sub_menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    top: 100%;
-    background: #fff;
-    padding: 20px;
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
-    visibility: hidden;
-    opacity: 0;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-    -webkit-transform: translate(0, -20px);
-    transform: translate(0, -20px);
-    z-index: 100;
-}
-
 .menu li .sub_menu li {
     margin-left: 0px;
     padding: 15px 20px;
@@ -351,42 +321,8 @@ nav {
     position: relative;
 }
 
-.menu li:hover .sub_menu {
-    visibility: visible;
-    -webkit-transform: translate(0, 0px);
-    transform: translate(0, 0px);
-    opacity: 1;
-}
-
 .menu li.active {
     border-bottom: 2px solid #eb9412;
-}
-
-.menu a.drop_down_nav:after {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f078";
-    display: inline-block;
-    padding-left: 10px;
-    font-size: 10px;
-}
-
-.menu_mega .sub_menu {
-    display: -webkit-box;
-    display: flex;
-    width: 100% !important;
-    flex-wrap: wrap;
-    left: 0;
-}
-
-.menu_mega .sub_menu .sub_s_m {
-    -webkit-box-flex: 1;
-    flex-grow: 1;
-    padding-right: 20px;
-}
-
-.menu_mega .sub_menu .sub_s_m:last-child {
-    padding-right: 0px;
 }
 
 .menu_mega .sub_menu .sub_s_m h5 {
@@ -405,24 +341,6 @@ nav {
     -webkit-box-align: center;
     align-items: center;
     height: 100%;
-}
-
-/* Header_Search - home 1*/
-.search_b {
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-pack: center;
-    justify-content: center;
-    visibility: hidden;
-    opacity: 0;
-    background: rgba(255, 255, 255, 0.96);
-    position: absolute;
-    height: 100vh;
-    width: 100%;
-    z-index: 999;
-    position: fixed;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
 }
 
 .search_b input {
@@ -595,10 +513,6 @@ header.home h1 {
     background: url("../img/icons/placeholder-filled-point.svg") no-repeat center top/cover;
 }
 
-.star .icon_gluten_free {
-    background: url("../img/icons/custom_Gluten_Free.svg") no-repeat center top/cover;
-}
-
 .button_sl {
     position: relative;
     width: 85px;
@@ -645,11 +559,6 @@ header.home h1 {
     outline: none;
     -webkit-transition: 0.3s;
     transition: 0.3s;
-}
-
-.slider .slider_namber .swiper-pagination-bullet-active {
-    color: #eb9412;
-    background: none;
 }
 
 .slider,
@@ -701,28 +610,6 @@ header.home h1 {
     padding-left: 20px;
 }
 
-/* Block 1 - home 1 - Services */
-.services {
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
-    padding-top: 65px;
-}
-
-.service_b {
-    padding-top: 120px;
-    padding-bottom: 120px;
-    background: url("../img/bg_01.jpg") no-repeat center top/cover;
-}
-
-.services .icon_s {
-    display: inline-block;
-    width: 85px;
-    height: 85px;
-    fill: #eb9412;
-}
-
 .title_t h2 {
     max-width: 440px;
     margin: 0;
@@ -741,29 +628,6 @@ header.home h1 {
 /* Block 2 - home 1 - Img_info */
 .image_f {
     background: rgba(0, 0, 0, 0.05);
-}
-
-.img_info .img_i {
-    background: url("https://via.placeholder.com/1000x1000") no-repeat center top/cover;
-    display: block;
-    width: 550px;
-    height: 400px;
-    position: relative;
-    margin-bottom: 50px;
-    border-radius: 8px;
-}
-
-.img_info .img_i::before {
-    content: "";
-    display: block;
-    position: absolute;
-    height: 400px;
-    width: 550px;
-    border: 2px solid rgba(0, 0, 0, 0.9);
-    border-radius: 8px;
-    left: 50px;
-    top: 50px;
-    z-index: -1;
 }
 
 .img_info {
@@ -1133,24 +997,9 @@ header.home h1 {
     margin-right: auto;
 }
 
-/* Block 7 - home 1 - Hours */
-.reserve {
-    text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
 .reserve h2 {
     padding-top: 25px;
     text-transform: uppercase;
-    padding-bottom: 50px;
-}
-
-/* Block 8 - home 1 - logos */
-.logos_p {
-    background: rgba(0, 0, 0, 0.05);
-    background: url("../img/bg_03.jpg") no-repeat center top/cover;
-    padding-top: 50px;
     padding-bottom: 50px;
 }
 
