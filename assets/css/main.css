@@ -7,7 +7,7 @@
 	---------------------------------------------------------------- */
 /* -----------------------------------------------------------------------
     Modified site by Prasuna Kunasani
-    Last Modified date: Sept 25th, 2021 at 12:09 PM
+    Last Modified date: Sept 25th, 2021 at 12:18 PM
 ----------------------------------------------------------------------- */
 body {
     margin: 0;
@@ -2259,10 +2259,10 @@ form {
     text-align: center;
     padding-top: 100px;
     padding-bottom: 100px;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../img/dish_curry.jpg") no-repeat center top/cover;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/dish_curry.jpg") no-repeat center top/cover;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../img/dish_curry.jpg") no-repeat center/cover;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/dish_curry.jpg") no-repeat center/cover;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../img/dish_rice.jpg") no-repeat center top/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/dish_rice.jpg") no-repeat center top/cover;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../img/dish_rice.jpg") no-repeat center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/dish_rice.jpg") no-repeat center/cover;
 }
 
 #about .information_ab span {
