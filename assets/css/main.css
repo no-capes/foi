@@ -1760,10 +1760,20 @@ aside a:hover {
     opacity: 1;
 }
 
-.star i {
+.fa-star {
     font-size: 14px;
     color: #eb9412;
 }
+
+.fa-leaf {
+    color: #6ABF5B;
+}
+
+.star i .fa-leaf{
+    color: #6ABF5B;
+}
+
+
 
 .container .slider_namber p {
     color: rgba(0, 0, 0, 0.7);
