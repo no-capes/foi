@@ -7,7 +7,7 @@
 	---------------------------------------------------------------- */
 /* -----------------------------------------------------------------------
     Modified site by Prasuna Kunasani
-    Last Modified date: Sept 28th, 2021 at 2:37 PM
+    Last Modified date: Sept 29th, 2021 at 6:02 PM
 ----------------------------------------------------------------------- */
 body {
     margin: 0;
@@ -657,6 +657,7 @@ header.home h1 {
 /* Block 3 - home 1 - Awards */
 .awards_block {
     padding: 60px;
+    background-image: url('../img/dish_pannerCurry.jpg');
 }
 
 .awards_block h2 {
@@ -811,6 +812,7 @@ header.home h1 {
     height: 400px;
     width: 100%;
     display: block;
+    background-image: url('../img/dish_noodles.jpg');
 }
 
 .bg_team_block::after {
@@ -1758,6 +1760,10 @@ aside a:hover {
 
 .products_sh:hover .image_product_add_to_cart:before {
     opacity: 1;
+}
+
+.fa-heart{
+    color: red
 }
 
 .fa-star {

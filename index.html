@@ -4,13 +4,13 @@
     <title>Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<!--  todo  Remove via.placeholder.com from CSP once the images are added-->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' widget.ybug.io via.placeholder.com fontawesome.com use.fontawesome.com fonts.gstatic.com fonts.googleapis.com ajax.googleapis.com cdnjs.cloudflare.com">
+    <!--  todo  Remove via.placeholder.com from CSP once the images are added-->
+    <meta http-equiv="Content-Security-Policy"
+          content="default-src 'self' widget.ybug.io ybug.io cdnjs.cloudflare.com 'sha256-NdH0qdnTxgVezgNxAUCVT6XEpulHZzi5WNdwfpIp9gk=' ajax.googleapis.com via.placeholder.com fontawesome.com use.fontawesome.com fonts.gstatic.com fonts.googleapis.com cdnjs.cloudflare.com 'sha256-yLjDZTmG89dxIKr27Z/XHQH6WwG5xmhAa+Cw4O3KOxE=' 'sha256-yLjDZTmG89dxIKr27Z/XHQH6WwG5xmhAa+Cw4O3KOxE=' 'sha256-NdH0qdnTxgVezgNxAUCVT6XEpulHZzi5WNdwfpIp9gk=' 'sha256-l/+9z4t5Lg+TD2gmirtXXBhsULiNj38ZNE53GQ4yn6I=' 'sha256-vKsALBijRG5yW7nMJYqDF+iEuC1YarO55M00jABcvlY=' 'sha256-KHDZZV5xpl0ZzQB00t1p3T836AzTNs0UJY20SyKk4cU='">
     <link rel="stylesheet" href="assets/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Unna:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
           integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
     <link rel="apple-touch-icon" sizes="180x180" href="../img/favicons/favicon-180x180.png">
@@ -19,6 +19,7 @@
     <meta name="theme-color" content="#eb9412">
     <link href="assets/css/libs.min.css" rel="stylesheet">
 </head>
+
 <body id="index">
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <header class="home">
@@ -117,13 +118,13 @@
                         Sukhi Josan, the answer was inevitable: Channa Masala. It has taken him years to perfect
                         this recipe to create a masterpiece. Try our Special Channa with a secret blend of spices
                         and maybe you will find your special dish as well </p><a
-                            class="button_line" href="https://orders.iorders.online/flavoursofindia">Order Online</a>
+                        class="button_line" href="https://orders.iorders.online/flavoursofindia">Order Online</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="awards_block jarallax" style="background-image: url('assets/img/dish_pannerCurry.jpg');">
+<section class="awards_block jarallax">
     <div class="container">
         <div class="row align-items-center justify-content-between">
             <div class="awards_inf col-lg-3">
@@ -209,7 +210,7 @@
     </div>
 </section>
 <section class="team">
-    <div class="bg_team_block jarallax" style="background-image: url('assets/img/dish_noodles.jpg');"></div>
+    <div class="bg_team_block jarallax"></div>
     <div class="container">
         <div class="our_team">
             <div class="our_t col-lg-12">
@@ -265,8 +266,7 @@
                     <i class="fab fa-yelp"></i>
                 </a>
             </div>
-            <p>COPYRIGHT &copy; 2021, Made with <i style="color: red"class="fa fa-heart"></i> in Saskatchewan
-<!--                <img src="assets/img/icons/casksaskatchewanflag_111696.png">-->
+            <p>COPYRIGHT &copy; 2021, Made with <i class="fa fa-heart"></i> in Saskatchewan
 
         </div>
     </div>
@@ -275,12 +275,7 @@
 <script src="assets/js/libs.min.js"></script>
 <script src="assets/js/scripts.min.js"></script>
 <script src="assets/js/custom.js"></script>
-<script>
-    $(document).ready(function () {
-        quoteSwiper.controller.control = imageSwiper;
-        imageSwiper.controller.control = quoteSwiper;
-    });
-</script>
+
 
 <!-- Ybug code start (https://ybug.io) -->
 <!-- Ybug code start (https://ybug.io) -->
