@@ -173,6 +173,10 @@ p {
     color: #000;
 }
 
+.whiteText{
+    color:white;
+}
+
 /*  Header - home 1 */
 header {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65)));
@@ -1918,6 +1922,11 @@ form {
 
 .contact_info {
     text-align: center;
+}
+
+.logo_about img{
+    width: 90px;
+    height: 121px;
 }
 
 .contact_info .logo_about {
