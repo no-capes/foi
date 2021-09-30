@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--  todo  Remove via.placeholder.com from CSP once the images are added-->
     <meta http-equiv="Content-Security-Policy"
-          content="default-src 'self' data: widget.ybug.io ybug.io cdnjs.cloudflare.com 'sha256-NdH0qdnTxgVezgNxAUCVT6XEpulHZzi5WNdwfpIp9gk=' ajax.googleapis.com via.placeholder.com fontawesome.com use.fontawesome.com fonts.gstatic.com fonts.googleapis.com cdnjs.cloudflare.com 'sha256-yLjDZTmG89dxIKr27Z/XHQH6WwG5xmhAa+Cw4O3KOxE=' 'sha256-yLjDZTmG89dxIKr27Z/XHQH6WwG5xmhAa+Cw4O3KOxE=' 'sha256-NdH0qdnTxgVezgNxAUCVT6XEpulHZzi5WNdwfpIp9gk=' 'sha256-l/+9z4t5Lg+TD2gmirtXXBhsULiNj38ZNE53GQ4yn6I=' 'sha256-vKsALBijRG5yW7nMJYqDF+iEuC1YarO55M00jABcvlY=' 'sha256-KHDZZV5xpl0ZzQB00t1p3T836AzTNs0UJY20SyKk4cU=' 'sha256-4c7Wwf6xUo/0h4Rn/SwSH/24UurUKX7JXP9C1acngPE=' 'sha256-FDaFJEfUmeNNDmh1mlkOgFQnyhlZzheSSA3oNe8/JRE='">
+          content="default-src 'self' data: widget.ybug.io ybug.io cdnjs.cloudflare.com 'sha256-NdH0qdnTxgVezgNxAUCVT6XEpulHZzi5WNdwfpIp9gk=' ajax.googleapis.com via.placeholder.com fontawesome.com use.fontawesome.com fonts.gstatic.com fonts.googleapis.com 'sha256-yLjDZTmG89dxIKr27Z/XHQH6WwG5xmhAa+Cw4O3KOxE=' 'sha256-yLjDZTmG89dxIKr27Z/XHQH6WwG5xmhAa+Cw4O3KOxE=' 'sha256-NdH0qdnTxgVezgNxAUCVT6XEpulHZzi5WNdwfpIp9gk=' 'sha256-l/+9z4t5Lg+TD2gmirtXXBhsULiNj38ZNE53GQ4yn6I=' 'sha256-vKsALBijRG5yW7nMJYqDF+iEuC1YarO55M00jABcvlY=' 'sha256-KHDZZV5xpl0ZzQB00t1p3T836AzTNs0UJY20SyKk4cU=' 'sha256-4c7Wwf6xUo/0h4Rn/SwSH/24UurUKX7JXP9C1acngPE=' 'sha256-FDaFJEfUmeNNDmh1mlkOgFQnyhlZzheSSA3oNe8/JRE=' 'sha256-mVrXODqKYyoZ3/+kxz55U0Az0XpHX16rjfH4mdau60o='">
     <link rel="stylesheet" href="assets/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Unna:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -37,7 +37,7 @@
     <div class="container flex_center">
         <div class="title">
             <h1>Our Menu</h1>
-            <h3 style="color: white;">Something for everyone</h3>
+            <h3 class="whiteColour">Something for everyone</h3>
         </div>
     </div>
 </header>
@@ -70,10 +70,10 @@
         <div class="container">
             <a href="assets/FOI_Take-Out_Menu_Web.pdf"><h3>Click here for a PDF menu</h3></a>
             <br>
-            <i class="fas fa-leaf"></i><span style="color:#eb9412"> Vegan</span>
+            <i class="fas fa-leaf"></i><span> Vegan</span>
 
-            <img src="assets/img/icons/custom_Gluten_Free.svg" style="width: 1.3em; height:1.3em;"
-                 alt="a vector graphic"/> <span style="color:#eb9412">Gluten Free</span>
+            <img src="assets/img/icons/custom_Gluten_Free.svg" class="lonelyGFIconSize"
+                 alt="a vector graphic"/> <span>Gluten Free</span>
 
             <h2>Starters</h2>
             <h3 id="vegStarters">Starters (Vegetarian)</h3>
@@ -158,8 +158,8 @@
                             <div class="row align-items-center justify-content-between"><span>$6.99</span>
                                 <div class="star">
                                     <i class="fas fa-leaf"></i>
-                                    <img class="custom_icon_gluten_free" src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.1em; height:1.1em;" alt="a vector graphic"/>
+                                    <img class="withLeafGFIconSize" src="assets/img/icons/custom_Gluten_Free.svg"
+                                         alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Veggie Pakora</h3>
@@ -179,7 +179,7 @@
                             <div class="row align-items-center justify-content-between"><span>$8.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Paneer Pakora</h3>
@@ -197,8 +197,8 @@
                             <div class="row align-items-center justify-content-between"><span>$7.99</span>
                                 <div class="star">
                                     <i class="fas fa-leaf"></i>
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.1em; height:1.1em;" alt="a vector graphic"/>
+                                    <img class="withLeafGFIconSize" src="assets/img/icons/custom_Gluten_Free.svg"
+                                         alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Onion Bhaaji</h3>
@@ -248,7 +248,7 @@
                             <div class="row align-items-center justify-content-between"><span>$16.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Paneer Tikka</h3>
@@ -317,7 +317,7 @@
                             <div class="row align-items-center justify-content-between"><span>$15.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Chicken Tikka</h3>
@@ -337,7 +337,7 @@
                             <div class="row align-items-center justify-content-between"><span>$13.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Chicken Tandoori </h3>
@@ -357,7 +357,7 @@
                             <div class="row align-items-center justify-content-between"><span>$11.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Chicken Wings Tandoori</h3>
@@ -393,7 +393,7 @@
                             <div class="row align-items-center justify-content-between"><span>$11.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Chicken Pakora</h3>
@@ -412,7 +412,7 @@
                             <div class="row align-items-center justify-content-between"><span>$16.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Fish Tikka</h3>
@@ -431,7 +431,7 @@
                             <div class="row align-items-center justify-content-between"><span>$11.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Fish Pakora</h3>
@@ -450,7 +450,7 @@
                             <div class="row align-items-center justify-content-between"><span>$14.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Shrimp Pakora</h3>
@@ -473,7 +473,7 @@
                             <div class="row align-items-center justify-content-between"><span>$13.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Cheese Tomato </h3>
@@ -491,7 +491,7 @@
                             <div class="row align-items-center justify-content-between"><span>$14.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Shahi Paneer</h3>
@@ -509,7 +509,7 @@
                             <div class="row align-items-center justify-content-between"><span>$13.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Paneer Zalfrezi</h3>
@@ -527,7 +527,7 @@
                             <div class="row align-items-center justify-content-between"><span>$16.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Paneer Butter Masala</h3>
@@ -545,7 +545,7 @@
                             <div class="row align-items-center justify-content-between"><span>$14.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Karahi Paneer </h3>
@@ -563,7 +563,7 @@
                             <div class="row align-items-center justify-content-between"><span>$15.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Paneer Madras</h3>
@@ -581,7 +581,7 @@
                             <div class="row align-items-center justify-content-between"><span>$13.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Palak Paneer</h3>
@@ -599,7 +599,7 @@
                             <div class="row align-items-center justify-content-between"><span>$15.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Paneer Amritsari</h3>
@@ -618,7 +618,7 @@
                             <div class="row align-items-center justify-content-between"><span>$13.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Matar Paneer</h3>
@@ -636,8 +636,8 @@
                             <div class="row align-items-center justify-content-between"><span>$12.99</span>
                                 <div class="star">
                                     <i class="fas fa-leaf"></i>
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.1em; height:1.1em;" alt="a vector graphic"/>
+                                    <img class="withLeafGFIconSize" src="assets/img/icons/custom_Gluten_Free.svg"
+                                         alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Channa Masala</h3>
@@ -655,8 +655,8 @@
                             <div class="row align-items-center justify-content-between"><span>$11.99</span>
                                 <div class="star">
                                     <i class="fas fa-leaf"></i>
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.1em; height:1.1em;" alt="a vector graphic"/>
+                                    <img class="withLeafGFIconSize" src="assets/img/icons/custom_Gluten_Free.svg"
+                                         alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Daal Handi</h3>
@@ -674,8 +674,8 @@
                             <div class="row align-items-center justify-content-between"><span>$11.99</span>
                                 <div class="star">
                                     <i class="fas fa-leaf"></i>
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.1em; height:1.1em;" alt="a vector graphic"/>
+                                    <img class="withLeafGFIconSize" src="assets/img/icons/custom_Gluten_Free.svg"
+                                         alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Yellow Daal Tadka</h3>
@@ -693,8 +693,8 @@
                             <div class="row align-items-center justify-content-between"><span>$13.99</span>
                                 <div class="star">
                                     <i class="fas fa-leaf"></i>
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.1em; height:1.1em;" alt="a vector graphic"/>
+                                    <img class="withLeafGFIconSize" src="assets/img/icons/custom_Gluten_Free.svg"
+                                         alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Mix Vegetables</h3>
@@ -712,8 +712,8 @@
                             <div class="row align-items-center justify-content-between"><span>$13.99</span>
                                 <div class="star">
                                     <i class="fas fa-leaf"></i>
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.1em; height:1.1em;" alt="a vector graphic"/>
+                                    <img class="withLeafGFIconSize" src="assets/img/icons/custom_Gluten_Free.svg"
+                                         alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Aloo Gobhi</h3>
@@ -731,8 +731,8 @@
                             <div class="row align-items-center justify-content-between"><span>$13.99</span>
                                 <div class="star">
                                     <i class="fas fa-leaf"></i>
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.1em; height:1.1em;" alt="a vector graphic"/>
+                                    <img class="withLeafGFIconSize" src="assets/img/icons/custom_Gluten_Free.svg"
+                                         alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Aloo Matar</h3>
@@ -750,8 +750,8 @@
                             <div class="row align-items-center justify-content-between"><span>$13.99</span>
                                 <div class="star">
                                     <i class="fas fa-leaf"></i>
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.1em; height:1.1em;" alt="a vector graphic"/>
+                                    <img class="withLeafGFIconSize" src="assets/img/icons/custom_Gluten_Free.svg"
+                                         alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Bhindi Masala</h3>
@@ -769,8 +769,8 @@
                             <div class="row align-items-center justify-content-between"><span>$13.99</span>
                                 <div class="star">
                                     <i class="fas fa-leaf"></i>
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.1em; height:1.1em;" alt="a vector graphic"/>
+                                    <img class="withLeafGFIconSize" src="assets/img/icons/custom_Gluten_Free.svg"
+                                         alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Baigan Bharta</h3>
@@ -788,8 +788,8 @@
                             <div class="row align-items-center justify-content-between"><span>$13.99</span>
                                 <div class="star">
                                     <i class="fas fa-leaf"></i>
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.1em; height:1.1em;" alt="a vector graphic"/>
+                                    <img class="withLeafGFIconSize" src="assets/img/icons/custom_Gluten_Free.svg"
+                                         alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Vegetable Zalfrezi</h3>
@@ -807,8 +807,8 @@
                             <div class="row align-items-center justify-content-between"><span>$11.99</span>
                                 <div class="star">
                                     <i class="fas fa-leaf"></i>
-                                    <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.1em; height:1.1em;" alt="a vector graphic"/>
+                                    <img class="withLeafGFIconSize" src="assets/img/icons/custom_Gluten_Free.svg"
+                                         alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Bombay Aloo</h3>
@@ -832,7 +832,7 @@
                             <div class="row align-items-center justify-content-between"><span>$15.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Butter Chicken</h3>
@@ -850,7 +850,7 @@
                             <div class="row align-items-center justify-content-between"><span>$14.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Curry Chicken</h3>
@@ -868,7 +868,7 @@
                             <div class="row align-items-center justify-content-between"><span>$14.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Chicken Vindaloo</h3>
@@ -886,7 +886,7 @@
                             <div class="row align-items-center justify-content-between"><span>$15.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Palak Chicken</h3>
@@ -904,7 +904,7 @@
                             <div class="row align-items-center justify-content-between"><span>$15.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Chicken Korma</h3>
@@ -922,7 +922,7 @@
                             <div class="row align-items-center justify-content-between"><span>$15.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Methi Chicken </h3>
@@ -940,7 +940,7 @@
                             <div class="row align-items-center justify-content-between"><span>$15.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Chicken Madras</h3>
@@ -958,7 +958,7 @@
                             <div class="row align-items-center justify-content-between"><span>$14.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Chicken Zalfrezi</h3>
@@ -976,7 +976,7 @@
                             <div class="row align-items-center justify-content-between"><span>$15.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Karahi Chicken</h3>
@@ -994,7 +994,7 @@
                             <div class="row align-items-center justify-content-between"><span>$16.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Lamb or Beef Curry</h3>
@@ -1012,7 +1012,7 @@
                             <div class="row align-items-center justify-content-between"><span>$16.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Lamb or Beef Goa Curry</h3>
@@ -1030,7 +1030,7 @@
                             <div class="row align-items-center justify-content-between"><span>$16.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Lamb or Beef Vindaloo</h3>
@@ -1048,7 +1048,7 @@
                             <div class="row align-items-center justify-content-between"><span>$17.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Lamb or Beef Korma</h3>
@@ -1066,7 +1066,7 @@
                             <div class="row align-items-center justify-content-between"><span>$16.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Lamb or Beef Karahi</h3>
@@ -1084,7 +1084,7 @@
                             <div class="row align-items-center justify-content-between"><span>$17.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Lamb or Beef Bhoona</h3>
@@ -1103,7 +1103,7 @@
                             <div class="row align-items-center justify-content-between"><span>$16.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Lamb or Beef Madras</h3>
@@ -1121,7 +1121,7 @@
                             <div class="row align-items-center justify-content-between"><span>$15.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Lamb or Beef Palak</h3>
@@ -1139,7 +1139,7 @@
                             <div class="row align-items-center justify-content-between"><span>$16.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Lamb or Beef Masala</h3>
@@ -1157,7 +1157,7 @@
                             <div class="row align-items-center justify-content-between"><span>$16.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Shrimp or Fish Curry</h3>
@@ -1175,7 +1175,7 @@
                             <div class="row align-items-center justify-content-between"><span>$17.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Shrimp or Fish Zalfrezi</h3>
@@ -1193,7 +1193,7 @@
                             <div class="row align-items-center justify-content-between"><span>$17.99</span>
                                 <div class="star">
                                     <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                         style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                         class="lonelyGFIconSize" alt="a vector graphic"/>
                                 </div>
                             </div>
                             <h3>Shrimp or Fish Masala</h3>
@@ -1219,7 +1219,7 @@
                         <div class="row align-items-center justify-content-between"><span>$15.99</span>
                             <div class="star">
                                 <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                     class="lonelyGFIconSize" alt="a vector graphic"/>
                             </div>
                         </div>
                         <h3>Paneer Tikka Masala</h3>
@@ -1239,7 +1239,7 @@
                         <div class="row align-items-center justify-content-between"><span>$13.99</span>
                             <div class="star">
                                 <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                     class="lonelyGFIconSize" alt="a vector graphic"/>
                             </div>
                         </div>
                         <h3>Vegetable Korma</h3>
@@ -1257,7 +1257,7 @@
                         <div class="row align-items-center justify-content-between"><span>$16.99</span>
                             <div class="star">
                                 <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                     class="lonelyGFIconSize" alt="a vector graphic"/>
                             </div>
                         </div>
                         <h3>Paneer Methi </h3>
@@ -1292,7 +1292,7 @@
                         <div class="row align-items-center justify-content-between"><span>$11.99</span>
                             <div class="star">
                                 <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                     class="lonelyGFIconSize" alt="a vector graphic"/>
                             </div>
                         </div>
                         <h3>Daal Makhani </h3>
@@ -1310,7 +1310,7 @@
                         <div class="row align-items-center justify-content-between"><span>$11.99</span>
                             <div class="star">
                                 <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                     class="lonelyGFIconSize" alt="a vector graphic"/>
                             </div>
                         </div>
                         <h3>Karri Pakora</h3>
@@ -1328,8 +1328,8 @@
                         <div class="row align-items-center justify-content-between"><span>$13.99</span>
                             <div class="star">
                                 <i class="fas fa-leaf"></i>
-                                <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                     style="width: 1.1em; height:1.1em;" alt="a vector graphic"/>
+                                <img class="withLeafGFIconSize" src="assets/img/icons/custom_Gluten_Free.svg"
+                                     alt="a vector graphic"/>
                             </div>
                         </div>
                         <h3>Zucchini Masala</h3>
@@ -1352,7 +1352,7 @@
                         <div class="row align-items-center justify-content-between"><span>$16.99</span>
                             <div class="star">
                                 <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                     class="lonelyGFIconSize" alt="a vector graphic"/>
                             </div>
                         </div>
                         <h3>Chicken Tikka Masala</h3>
@@ -1372,7 +1372,7 @@
                         <div class="row align-items-center justify-content-between"><span>$15.99</span>
                             <div class="star">
                                 <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                     class="lonelyGFIconSize" alt="a vector graphic"/>
                             </div>
                         </div>
                         <h3>Chicken Masala</h3>
@@ -1390,7 +1390,7 @@
                         <div class="row align-items-center justify-content-between"><span>$16.99</span>
                             <div class="star">
                                 <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                     class="lonelyGFIconSize" alt="a vector graphic"/>
                             </div>
                         </div>
                         <h3>Fish Tikka Masala</h3>
@@ -1415,8 +1415,8 @@
                         <div class="row align-items-center justify-content-between"><span>$14.99</span>
                             <div class="star">
                                 <i class="fas fa-leaf"></i>
-                                <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                     style="width: 1.1em; height:1.1em;" alt="a vector graphic"/>
+                                <img class="withLeafGFIconSize" src="assets/img/icons/custom_Gluten_Free.svg"
+                                     alt="a vector graphic"/>
                             </div>
                         </div>
                         <h3>Josan’s Special Channa</h3>
@@ -1740,8 +1740,8 @@
                         <div class="row align-items-center justify-content-between"><span>$2.99</span>
                             <div class="star">
                                 <i class="fas fa-leaf"></i>
-                                <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                     style="width: 1.1em; height:1.1em;" alt="a vector graphic"/>
+                                <img class="withLeafGFIconSize" src="assets/img/icons/custom_Gluten_Free.svg"
+                                     alt="a vector graphic"/>
                             </div>
                         </div>
                         <h3>Basmati Rice</h3>
@@ -1759,8 +1759,8 @@
                         <div class="row align-items-center justify-content-between"><span>$4.99</span>
                             <div class="star">
                                 <i class="fas fa-leaf"></i>
-                                <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                     style="width: 1.1em; height:1.1em;" alt="a vector graphic"/>
+                                <img class="withLeafGFIconSize" src="assets/img/icons/custom_Gluten_Free.svg"
+                                     alt="a vector graphic"/>
                             </div>
                         </div>
                         <h3>Zeera Rice</h3>
@@ -1778,7 +1778,7 @@
                         <div class="row align-items-center justify-content-between"><span>$5.99</span>
                             <div class="star">
                                 <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                     class="lonelyGFIconSize" alt="a vector graphic"/>
                             </div>
                         </div>
                         <h3>Saffron Rice</h3>
@@ -1796,7 +1796,7 @@
                         <div class="row align-items-center justify-content-between"><span>$7.99</span>
                             <div class="star">
                                 <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                     class="lonelyGFIconSize" alt="a vector graphic"/>
                             </div>
                         </div>
                         <h3>Saffron Rice with Nuts </h3>
@@ -1814,7 +1814,7 @@
                         <div class="row align-items-center justify-content-between"><span>$7.99</span>
                             <div class="star">
                                 <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                     class="lonelyGFIconSize" alt="a vector graphic"/>
                             </div>
                         </div>
                         <h3>Coconut Rice</h3>
@@ -1832,7 +1832,7 @@
                         <div class="row align-items-center justify-content-between"><span>$13.99</span>
                             <div class="star">
                                 <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                     class="lonelyGFIconSize" alt="a vector graphic"/>
                             </div>
                         </div>
                         <h3>Vegetable Biryani</h3>
@@ -1851,7 +1851,7 @@
                         <div class="row align-items-center justify-content-between"><span>$15.99</span>
                             <div class="star">
                                 <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                     class="lonelyGFIconSize" alt="a vector graphic"/>
                             </div>
                         </div>
                         <h3>Chicken Biryani</h3>
@@ -1870,7 +1870,7 @@
                         <div class="row align-items-center justify-content-between"><span>$17.99</span>
                             <div class="star">
                                 <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                     class="lonelyGFIconSize" alt="a vector graphic"/>
                             </div>
                         </div>
                         <h3>Lamb or Beef Biryani</h3>
@@ -1888,7 +1888,7 @@
                         <div class="row align-items-center justify-content-between"><span>$17.99</span>
                             <div class="star">
                                 <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                     class="lonelyGFIconSize" alt="a vector graphic"/>
                             </div>
                         </div>
                         <h3>Shrimp or Fish Biryani </h3>
@@ -2059,8 +2059,8 @@
                         <div class="row align-items-center justify-content-between"><span>$3.99</span>
                             <div class="star">
                                 <i class="fas fa-leaf"></i>
-                                <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                     style="width: 1.1em; height:1.1em;" alt="a vector graphic"/>
+                                <img class="withLeafGFIconSize" src="assets/img/icons/custom_Gluten_Free.svg"
+                                     alt="a vector graphic"/>
                             </div>
                         </div>
                         <h3>Besan Roti </h3>
@@ -2215,7 +2215,7 @@
                             <div class="star">
 
                                 <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                     class="lonelyGFIconSize" alt="a vector graphic"/>
                             </div>
                         </div>
                         <h3>Raita </h3>
@@ -2235,7 +2235,7 @@
                             <div class="star">
 
                                 <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                     class="lonelyGFIconSize" alt="a vector graphic"/>
                             </div>
                         </div>
                         <h3>Dahi Bhalla</h3>
@@ -2254,8 +2254,8 @@
                         <div class="row align-items-center justify-content-between"><span>$2.99</span>
                             <div class="star">
                                 <i class="fas fa-leaf"></i>
-                                <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                     style="width: 1.1em; height:1.1em;" alt="a vector graphic"/>
+                                <img class="withLeafGFIconSize" src="assets/img/icons/custom_Gluten_Free.svg"
+                                     alt="a vector graphic"/>
                             </div>
                         </div>
                         <h3>Salad </h3>
@@ -2359,7 +2359,7 @@
                             <div class="star">
 
                                 <img src="assets/img/icons/custom_Gluten_Free.svg"
-                                     style="width: 1.5em; height:1.5em;" alt="a vector graphic"/>
+                                     class="lonelyGFIconSize" alt="a vector graphic"/>
                             </div>
                         </div>
                         <h3>Kheer (Rice Pudding)</h3>

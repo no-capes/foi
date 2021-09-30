@@ -7,7 +7,7 @@
 	---------------------------------------------------------------- */
 /* -----------------------------------------------------------------------
     Modified site by Prasuna Kunasani
-    Last Modified date: Sept 29th, 2021 at 6:07 PM
+    Last Modified date: Sept 30th, 2021 at 12:24 PM
 ----------------------------------------------------------------------- */
 body {
     margin: 0;
@@ -173,8 +173,20 @@ p {
     color: #000;
 }
 
-.whiteText{
+.whiteColour{
     color:white;
+}
+
+.lonelyGFIconSize{
+    width: 1.4em;
+    height:1.4em;
+}
+
+
+
+.withLeafGFIconSize{
+    width: 1.1em;
+    height:1.1em;
 }
 
 /*  Header - home 1 */
