@@ -7,7 +7,7 @@
 	---------------------------------------------------------------- */
 /* -----------------------------------------------------------------------
     Modified site by Prasuna Kunasani
-    Last Modified date: Sept 30th, 2021 at 12:24 PM
+    Last Modified date: Oct 4th, 2021 at 2:30 PM
 ----------------------------------------------------------------------- */
 body {
     margin: 0;
@@ -1655,7 +1655,8 @@ aside a:hover {
 }
 
 .products_sh img, .products_sh p {
-    width: 100%;
+    /*Was putting the gluten free icon to the bottom. Keeping as a comment in case the images for menu items come back and this becomes an issue*/
+    /*width: 100%;*/
     -webkit-transition: 0.3s;
     transition: 0.3s;
     z-index: -1;
