@@ -3225,8 +3225,15 @@ form {
         padding-bottom: 30px;
     }
 
-    .contact {
+    .contact i {
         display: none;
+    }
+
+    .contact span{
+        font-size: 80%
+    }
+    .contact p{
+        font-size: 80%;
     }
 
     .bottom_info {
