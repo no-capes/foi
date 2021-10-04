@@ -1730,6 +1730,7 @@ aside a:hover {
     -webkit-box-pack: center;
     justify-content: center;
     overflow: hidden;
+    padding-top: 1%;
 }
 
 /*.image_product_add_to_cart a {*/
@@ -1764,11 +1765,6 @@ aside a:hover {
 .menuSubHeading {
     padding-bottom: 3%;
 }
-
-/*.button_line i {*/
-/*    padding-right: 10px;*/
-/*    margin-bottom: 2px;*/
-/*}*/
 
 .image_product_add_to_cart:before {
     content: '';
