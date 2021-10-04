@@ -3230,7 +3230,7 @@ form {
     }
 
     .contact span{
-        font-size: 80%
+        display: none;
     }
     .contact p{
         font-size: 80%;
