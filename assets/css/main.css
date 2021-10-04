@@ -528,6 +528,10 @@ header.home h1 {
     background: url("../img/icons/placeholder-filled-point.svg") no-repeat center top/cover;
 }
 
+.smallScreenContactInfo{
+    display: none;
+}
+
 .button_sl {
     position: relative;
     width: 85px;
@@ -2184,12 +2188,12 @@ form {
 
 
 #index .gallery {
-    margin-top: 100px;
+    margin-top: 50px;
     background: rgba(0, 0, 0, 0.05);
 }
 
 #index .gallery_block {
-    padding-top: 80px;
+    padding-top: 60px;
     padding-bottom: 80px;
 }
 
@@ -3230,16 +3234,77 @@ form {
         padding-bottom: 30px;
     }
 
-    .contact i {
+    /*.contact i {*/
+    /*    display: none;*/
+    /*}*/
+
+    /*.contact span {*/
+    /*    display: none;*/
+    /*}*/
+
+    /*.contact p {*/
+    /*    font-size: 80%;*/
+    /*}*/
+
+    .contact{
         display: none;
     }
 
-    .contact span {
-        display: none;
+
+    /*.smallScreenContactInfo{*/
+    /*    display: unset;*/
+    /*    color: black;*/
+    /*}*/
+    /*.smallScreenContactInfo .info_ph p {*/
+    /*    padding-top: 3%;*/
+    /*    color: #000000;*/
+    /*}*/
+    /*.smallScreenContactInfo .info_a p  {*/
+    /*    padding-top: 3%;*/
+    /*    color: #000000;*/
+    /*}*/
+
+    .smallScreenContactInfo {
+        /*display: unset;*/
+        color: #000000;
+        display: -webkit-box;
+        display: flex;
+        padding-top: 5%;
+        margin-left: 10%;
     }
 
-    .contact p {
-        font-size: 80%;
+    .smallScreenContactInfo span {
+        font-size: 16px;
+    }
+
+    .smallScreenContactInfo p {
+        color: #000000;
+        font-size: 16px;
+        font-weight: 700;
+        margin: 0;
+        /*padding-bottom: 3%;*/
+        padding: 0;
+    }
+
+    .smallScreenContactInfo
+    .info_ph,
+    .info_a {
+        border-left: 1px solid black;
+    }
+
+    .smallScreenContactInfo i {
+        display: block;
+        width: 18px;
+        height: 18px;
+        margin-right: 20px;
+    }
+
+    .smallScreenContactInfo .icon_phone {
+        background: url("../img/icons/call-answer-black.svg") no-repeat center top/cover;
+    }
+
+    .smallScreenContactInfo .icon_address {
+        background: url("../img/icons/placeholder-filled-point-black.svg") no-repeat center top/cover;
     }
 
     .bottom_info {
