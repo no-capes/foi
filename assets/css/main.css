@@ -177,16 +177,16 @@ p {
     color: white;
 }
 
-.lonelyGFIconSize {
+.lonelyGFIconSize, .lonelyLeafIconSize {
     width: 1.4em;
     height: 1.4em;
 }
 
-
-.withLeafGFIconSize {
+.leafIconSize, .withLeafGFIconSize {
     width: 1.1em;
     height: 1.1em;
 }
+
 
 /*  Header - home 1 */
 header {
@@ -528,7 +528,7 @@ header.home h1 {
     background: url("../img/icons/placeholder-filled-point.svg") no-repeat center top/cover;
 }
 
-.smallScreenContactInfo{
+.smallScreenContactInfo {
     display: none;
 }
 
@@ -2144,7 +2144,7 @@ form {
 }
 
 #about .gallery {
-    margin-top: 100px;
+    margin-top: 0px;
     background: rgba(0, 0, 0, 0.05);
 }
 
@@ -3237,16 +3237,13 @@ form {
     /*.contact i {*/
     /*    display: none;*/
     /*}*/
-
     /*.contact span {*/
     /*    display: none;*/
     /*}*/
-
     /*.contact p {*/
     /*    font-size: 80%;*/
     /*}*/
-
-    .contact{
+    .contact {
         display: none;
     }
 
@@ -3263,7 +3260,6 @@ form {
     /*    padding-top: 3%;*/
     /*    color: #000000;*/
     /*}*/
-
     .smallScreenContactInfo {
         /*display: unset;*/
         color: #000000;
