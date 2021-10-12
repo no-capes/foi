@@ -927,36 +927,52 @@ header.home h1 {
 
 /*@keyframes spin2 {*/
 /*    0% {*/
-/*        content: "Flavours Of India is our favourite place to frequently visit! Every time we have been there it is always an awesome satisfying experience! Every dish that we have tried is amazingly yummy! You can taste the love and passion in every bite! It’s hard to recommend just one dish because every one of them is a ten out of ten!!! Thankyou Josan Family and staff for the top notch service and Oh So YUMMY Food! See you next time!";*/
+/*        content: "";*/
 /*    }*/
 /*    20% {*/
-/*        content: "Very delicious! We come here often and it's because every dish we try is great. Staff is friendly and remembers our order and our family. I highly recommend Flavors to all of our friends.";*/
+/*        content: "";*/
 /*    }*/
 /*    40% {*/
-/*        content: "Some of the best Indian food I've had. The menu is all marked with which dishes are gluten-free and which are vegan, so it is very easy to eat here with food restrictions. Most of the menu is gluten-free, and they even have a gluten-free bread-like option";*/
+/*        content: "";*/
 /*    }*/
 /*    60% {*/
-/*        content: "Best Indian food in Regina. We have tried every Indian place and nothing compares to flavours of the food in this restaurant. Great prices for the delicious food. Friendly and hardworking staff. Offers gluten free options for those who are celiac. 100% recommend. ";*/
+/*        content: " ";*/
 /*    }*/
 /*    80% {*/
-/*        content: "Top Notch. Great Customer Service, Great Food and the Spice Levels. I had given them big orders twice and both the time no complaints. They are very flexible and accommodating to your needs. Support this restaurant you all.";*/
+/*        content: "";*/
 /*    }*/
 /*    100% {*/
 /*        content: "Flavours Of India is our favourite place to frequently visit! Every time we have been there it is always an awesome satisfying experience! Every dish that we have tried is amazingly yummy! You can taste the love and passion in every bite! It’s hard to recommend just one dish because every one of them is a ten out of ten!!! Thankyou Josan Family and staff for the top notch service and Oh So YUMMY Food! See you next time!";*/
 /*    }*/
 /*}*/
 
+
 .customer_name {
-    margin: 1rem 0;
-    position: relative;
-}
-.a {
     display: block;
-    animation: textFade 8s ease infinite forwards;
+    animation: textFade 15s ease infinite forwards;
     position: absolute;
-    left: 0;
-    top: 0;
+    /*left: 35%;*/
+    /*top: 40%;*/
     opacity: 0;
+    color: black;
+    align: center;
+    width: 100%;
+    /*top:20%;*/
+    top: 35px;
+}
+
+.customer_review {
+    /*display: block;*/
+    animation: textFade 15s ease infinite forwards;
+    position: absolute;
+    /*left: 35%;*/
+    /*top: 40%;*/
+    opacity: 0;
+    /*color: black;*/
+    /*align: center;*/
+    /*width: 100%;*/
+    /*!*top:20%;*!*/
+    /*top: 35px;*/
 }
 
 @keyframes textFade {
@@ -973,25 +989,21 @@ header.home h1 {
         opacity: 0;
     }
 }
-.a1 {
-    animation-delay: 2s;
+.a1, .b1 {
+    animation-delay: 3s;
 }
-.a2 {
-    animation-delay: 4s;
-}
-.a3 {
+.a2, .b2 {
     animation-delay: 6s;
 }
-.a4 {
-    animation-delay: 8s;
+.a3, .b3 {
+    animation-delay: 9s;
 }
-.a5 {
-    animation-delay: 10s;
-}
-.a6 {
+.a4, .b4 {
     animation-delay: 12s;
 }
-
+.a5, .b5 {
+    animation-delay: 15s;
+}
 
 
 /**/
