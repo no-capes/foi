@@ -847,112 +847,15 @@ header.home h1 {
 }
 
 .our_t span {
-    display: block;
-    color: #fff;
+    /*display: block;*/
+    color: #000000;
 }
 
 .our_t h2 {
     padding-top: 25px;
     padding-bottom: 40px;
-    color: #fff;
+    color: #ffffff;
 }
-
-/**/
-
-
-/*.name1 {*/
-/*    animation: w1anim 20s infinite;*/
-/*}*/
-/*@keyframes w1anim {*/
-/*    0%{*/
-/*        !*opacity: 0;*!*/
-/*        content:"Hi";*/
-/*    }*/
-/*    10%{*/
-/*        !*opacity: 1;*!*/
-/*        content:"Hi";*/
-/*    }*/
-/*    20% {*/
-/*        !*opacity:0;*!*/
-/*        content:"Hi";*/
-/*    }*/
-/*}*/
-
-
-#customer_name {
-    animation: pulse 20s infinite;
-    -webkit-animation: pulse 20s infinite;
-}
-
-/*@keyframes pulse {*/
-/*}*/
-
-#customer_name:after {
-    content: "";
-    animation: spin 20s infinite;
-    -webkit-animation: spin 20s infinite;
-}
-
-
-@keyframes spin {
-    0% {
-        content: "Marilyn Kurtz";
-    }
-    20% {
-        content: "Cory Laczko";
-    }
-    40% {
-        content: "Bobbie";
-    }
-    60% {
-        content: "Annie M";
-    }
-    80% {
-        content: "Ruja Shah";
-    }
-    100% {
-        content: "Marilyn Kurtz";
-    }
-}
-
-
-#customer_review {
-    animation: pulse2 20s infinite;
-    -webkit-animation: pulse2 20s infinite;
-}
-
-/*@keyframes pulse2 {*/
-/*}*/
-
-#customer_review:after {
-    content: "";
-    animation: spin2 20s infinite;
-    -webkit-animation: spin2 20s infinite;
-}
-
-@keyframes spin2 {
-    0% {
-        content: "Flavours Of India is our favourite place to frequently visit! Every time we have been there it is always an awesome satisfying experience! Every dish that we have tried is amazingly yummy! You can taste the love and passion in every bite! It’s hard to recommend just one dish because every one of them is a ten out of ten!!! Thankyou Josan Family and staff for the top notch service and Oh So YUMMY Food! See you next time!";
-    }
-    20% {
-        content: "Very delicious! We come here often and it's because every dish we try is great. Staff is friendly and remembers our order and our family. I highly recommend Flavors to all of our friends.";
-    }
-    40% {
-        content: "Some of the best Indian food I've had. The menu is all marked with which dishes are gluten-free and which are vegan, so it is very easy to eat here with food restrictions. Most of the menu is gluten-free, and they even have a gluten-free bread-like option";
-    }
-    60% {
-        content: "Best Indian food in Regina. We have tried every Indian place and nothing compares to flavours of the food in this restaurant. Great prices for the delicious food. Friendly and hardworking staff. Offers gluten free options for those who are celiac. 100% recommend. ";
-    }
-    80% {
-        content: "Top Notch. Great Customer Service, Great Food and the Spice Levels. I had given them big orders twice and both the time no complaints. They are very flexible and accommodating to your needs. Support this restaurant you all.";
-    }
-    100% {
-        content: "Flavours Of India is our favourite place to frequently visit! Every time we have been there it is always an awesome satisfying experience! Every dish that we have tried is amazingly yummy! You can taste the love and passion in every bite! It’s hard to recommend just one dish because every one of them is a ten out of ten!!! Thankyou Josan Family and staff for the top notch service and Oh So YUMMY Food! See you next time!";
-    }
-}
-
-
-/**/
 
 .info_block {
     text-align: center;
