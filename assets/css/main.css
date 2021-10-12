@@ -881,6 +881,7 @@ header.home h1 {
 
 #customer_name {
     animation: pulse 20s infinite;
+    -webkit-animation: pulse 20s infinite;
 }
 
 /*@keyframes pulse {*/
@@ -889,7 +890,9 @@ header.home h1 {
 #customer_name:after {
     content: "";
     animation: spin 20s infinite;
+    -webkit-animation: spin 20s infinite;
 }
+
 
 @keyframes spin {
     0% {
@@ -915,6 +918,7 @@ header.home h1 {
 
 #customer_review {
     animation: pulse2 20s infinite;
+    -webkit-animation: pulse2 20s infinite;
 }
 
 /*@keyframes pulse2 {*/
@@ -923,6 +927,7 @@ header.home h1 {
 #customer_review:after {
     content: "";
     animation: spin2 20s infinite;
+    -webkit-animation: spin2 20s infinite;
 }
 
 @keyframes spin2 {
