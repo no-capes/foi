@@ -77,12 +77,12 @@ if ((document.getElementById('customerName') !== null) && (document.getElementBy
 //eo index page js
 
 
-//     (function () {
-//     window.ybug_settings = {"id": "cpz575zzdkn9ny2sc1xj"};
-//     var ybug = document.createElement('script');
-//     ybug.type = 'text/javascript';
-//     ybug.async = true;
-//     ybug.src = 'https://widget.ybug.io/button/' + window.ybug_settings.id + '.js';
-//     var s = document.getElementsByTagName('script')[0];
-//     s.parentNode.insertBefore(ybug, s);
-// })();
+    (function () {
+    window.ybug_settings = {"id": "cpz575zzdkn9ny2sc1xj"};
+    var ybug = document.createElement('script');
+    ybug.type = 'text/javascript';
+    ybug.async = true;
+    ybug.src = 'https://widget.ybug.io/button/' + window.ybug_settings.id + '.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ybug, s);
+})();
